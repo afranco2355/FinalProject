@@ -31,3 +31,29 @@ subwaystations.forEach(function(subwayRecord) {
     .setPopup(new mapboxgl.Popup().setHTML(`<h3>${subwayRecord['Stop Name']}</h3><p>Accessibility: ${subwayRecord['Accesibility']}</p>`))
     .addTo(map);
 });
+
+function toggleDescription() {
+    var descriptionContainer = document.getElementById('description-container');
+    descriptionContainer.classList.toggle('hidden');
+}
+
+// JavaScript to handle image gallery navigation
+const images = document.querySelectorAll('.gallery-image');
+let currentIndex = 0;
+
+function showImage(index) {
+    images.forEach(image => {
+        image.classList.remove('current-image');
+    });
+    images[index].classList.add('current-image');
+}
+
+function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
+}
+
+function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+}
