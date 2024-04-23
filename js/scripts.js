@@ -33,6 +33,13 @@ subwaystations.forEach(function (subwayRecord) {
         .addTo(map);
 });
 
+function toggleDescription() {
+    var descriptionContent = document.getElementById('description-content');
+    descriptionContent.classList.toggle('hidden');
+    var toggleButton = document.querySelector('.button-3');
+    toggleButton.textContent = descriptionContent.classList.contains('hidden') ? 'Show Description' : 'Hide Description';
+}
+
 // JavaScript to handle image gallery navigation
 const images = document.querySelectorAll('.gallery-image');
 let currentIndex = 0;
@@ -55,9 +62,4 @@ function nextImage() {
 function prevImage() {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
     showImage(currentIndex);
-}
-
-function toggleDescription() {
-    var descriptionContent = document.getElementById('description-content');
-    descriptionContent.classList.toggle('hidden');
 }
