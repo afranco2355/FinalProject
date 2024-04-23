@@ -1,3 +1,4 @@
+// Initialize Mapbox map
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW1mMTAwOTIiLCJhIjoiY2x1cmRoODA1MDYyYTJ2bjV1djk2c3E4ZiJ9.l38L0twOrC6M5FnzpbZz2A';
 const map = new mapboxgl.Map({
     style: "mapbox://styles/mapbox/dark-v11",
@@ -32,20 +33,18 @@ subwaystations.forEach(function(subwayRecord) {
     .addTo(map);
 });
 
-function toggleDescription() {
-    var descriptionContainer = document.getElementById('description-container');
-    descriptionContainer.classList.toggle('hidden');
-}
-
 // JavaScript to handle image gallery navigation
 const images = document.querySelectorAll('.gallery-image');
 let currentIndex = 0;
 
 function showImage(index) {
-    images.forEach(image => {
-        image.classList.remove('current-image');
+    images.forEach((image, i) => {
+        if (i === index) {
+            image.classList.add('current-image');
+        } else {
+            image.classList.remove('current-image');
+        }
     });
-    images[index].classList.add('current-image');
 }
 
 function nextImage() {
