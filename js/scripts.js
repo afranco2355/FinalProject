@@ -9,16 +9,15 @@ const map = new mapboxgl.Map({
 // Add navigation control to the map and set position
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
-
 // Load subway station data
 subwaystations.forEach(function(subwayRecord) {
     var color;
 
     // Determine marker color based on accessibility
     if (subwayRecord.Accesibility === 'Y') {
-        color = '#25afef';
+        color = '#25afef'; // Blue for accessible stations
     } else {
-        color = '#d67ea6'
+        color = '#d67ea6'; // Red for non-accessible stations
     }
 
     // Create circle marker element
