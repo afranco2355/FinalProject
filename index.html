@@ -11,11 +11,19 @@
 
 <body>
     <div id="map"></div>
+
     <div id="title-container">
-        <div id="title">Subway Station Accessibility Infrastructure</div>
+        <div id="title">Subway Stations Accessibility Infrastructure</div>
     </div>
+
     <div id="description-container">
-        <div id="description">
+        <div id="mta-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/MTA_NYC_logo.svg/698px-MTA_NYC_logo.svg.png" alt="MTA Logo">
+            <h2>What the MTA is doing</h2>
+        </div>
+        <div id="description-toggle" onclick="toggleDescription()">Hide Description</div>
+        <div id="description-content">
+            <div id="description">
 
             <p>The project is dedicated to enhancing accessibility across the transit system, with a focus on
                 initiatives outlined in the MTA's 2020-2024 Capital Program. This program allocates a historic $5.2
@@ -38,6 +46,7 @@
                 consultation with riders and advocates to maximize the project's impact.</p>
         </div>
     </div>
+</div>
 
     <div id="image-container">
         <img class="gallery-image current-image" src="https://cdn.vox-cdn.com/thumbor/8zcIzw5z_ftpWQWJk5BnZwi_USU=/0x0:2000x1333/1375x1375/filters:focal(840x507:1160x827):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/56792293/170920_14_21_07_5DSR8940.0.jpg">
@@ -49,7 +58,7 @@
         <div class="arrow left-arrow" onclick="prevImage()"></div>
         <!-- Right arrow -->
         <div class="arrow right-arrow" onclick="nextImage()"></div>
-    </div>    
+    </div>
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
     <script src="js/stations.js" defer></script>
