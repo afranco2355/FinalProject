@@ -59,6 +59,7 @@ body {
     /* Enable vertical scrolling */
     max-height: 370px;
     /* Set maximum height for the description box */
+    border: 1px solid #243fee; /* Add border for visual separation */
 }
 
 #description {
@@ -78,14 +79,23 @@ body {
 #image-container {
     position: absolute;
     width: 500px;
-    background-color: #6a6a6a;
-    padding: 10px;
+    background-color: #6a6a6a; /* Change background color */
+    padding: 5px; /* Increase padding for more space */
     overflow: hidden;
     box-sizing: border-box;
-    border-radius: 5px;
-    z-index: 1; /* Ensure the image container is above other elements */
-    top: 452px; /* Adjust the top position to place it below the description box */
-    left: 20px; /* Align with other boxes */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #243fee; /* Add border for visual separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    z-index: 1;
+    top: 452px;
+    left: 20px;
+    text-align: center; /* Center-align text */
+    margin-top: 0; /* Remove default top margin */
+}
+
+#image-container h3 {
+    color: rgb(255, 255, 255); /* Set the text color */
+    text-shadow: 0 0 5px rgb(116, 125, 175); /* Create a white halo effect */
 }
 
 .gallery-image {
@@ -94,8 +104,9 @@ body {
     max-height: 350px;
     margin: 0 auto; /* Center the images horizontally */
     display: none; /* Hide all images initially */
-    width: 335px; /* Set the desired width */
-    height: 300px; /* Set the desired height */
+    width: 300px; /* Set the desired width */
+    height: 280px; /* Set the desired height */
+    border: 1px solid rgb(57, 57, 57);
 }
 
 .current-image {
@@ -108,7 +119,8 @@ body {
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(68, 112, 165, 0.833);
+    border: 1px solid #9cb7ed;
     cursor: pointer;
     z-index: 2;
 }
@@ -173,6 +185,7 @@ body {
     touch-action: manipulation;
     vertical-align: middle;
     white-space: nowrap;
+    width: 478px;
   }
   
   .button-3:focus:not(:focus-visible):not(.focus-visible) {

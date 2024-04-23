@@ -37,7 +37,7 @@ function toggleDescription() {
     var descriptionContent = document.getElementById('description-content');
     descriptionContent.classList.toggle('hidden');
     var toggleButton = document.querySelector('.button-3');
-    toggleButton.textContent = descriptionContent.classList.contains('hidden') ? 'Show Description' : 'Hide Description';
+    toggleButton.textContent = descriptionContent.classList.contains('hidden') ? 'Take a Look' : 'Hide Description';
 }
 
 // JavaScript to handle image gallery navigation
