@@ -9,7 +9,8 @@ body {
     top: 0;
     bottom: 0;
     width: calc(100% - 540px);
-    left: 520px;
+    left: 540px;
+    border: 5px solid rgb(0, 0, 0); /* Set border to black */
 }
 
 .circle-marker {
@@ -220,9 +221,38 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black; /* Set background color to black */
-    border: 1px solid black; /* Set border to black */
+    background-color: rgb(15, 38, 56); /* Set background color to black */
+    border: 5px solid rgb(0, 0, 0); /* Set border to black */
     border-radius: 10px; /* Add border radius for rounded corners */
     padding: 20px; /* Add padding for spacing */
     z-index: -1; /* Ensure it's behind other content */
+}
+
+.mapboxgl-popup {
+    max-width: 400px; /* Adjust maximum width */
+    font-family: Arial, sans-serif; /* Specify font family */
+    box-shadow: 0 2px 4px rgba(152, 152, 152, 0.1);
+    padding: 10px; /* Adjust padding */
+}
+
+.mapboxgl-popup-content {
+    padding: 20px; /* Add padding */
+}
+
+.mapboxgl-popup h3 {
+    margin: 0; /* Remove margin */
+    font-size: 16px; /* Adjust font size for name */
+    font-weight: bold; /* Set font weight to bold */
+    margin-bottom: 5px; /* Add bottom margin */
+}
+
+.mapboxgl-popup p {
+    margin: 0; /* Remove margin */
+    font-size: 14px; /* Adjust font size for accessibility */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+.mapboxgl-popup .accessibility {
+    font-size: 12px; /* Adjust font size for accessibility */
+    color: #666; /* Adjust color if needed */
 }

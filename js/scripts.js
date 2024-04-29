@@ -29,7 +29,7 @@ subwaystations.forEach(function (subwayRecord) {
     // Add circle marker to the map
     new mapboxgl.Marker(el)
         .setLngLat([parseFloat(subwayRecord['GTFS Longitude'].replace(',', '.')), parseFloat(subwayRecord['GTFS Latitude'].replace(',', '.'))])
-        .setPopup(new mapboxgl.Popup().setHTML(`<h3>${subwayRecord['Stop Name']}</h3><p>Accessibility: ${subwayRecord['Accesibility']}</p>`))
+        .setPopup(new mapboxgl.Popup().setHTML(`<h3>${subwayRecord['Stop Name']}</h3><p>Accessibility: ${subwayRecord.Accesibility === 'Y' ? 'Yes' : 'No'}</p>`))
         .addTo(map);
 });
 

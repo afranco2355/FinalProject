@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NYC Subway Accessibility</title>
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
     <link href="CSS/styles.css" rel="stylesheet">
 </head>
@@ -12,19 +12,18 @@
 <body>
     <div id="map"></div>
     <div id="main-container">
-
-    <div id="title-container">
-        <div id="title">Subway Stations Accessibility Infrastructure</div>
-    </div>
-
-    <div id="description-container">
-        <div id="mta-header">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/MTA_NYC_logo.svg/698px-MTA_NYC_logo.svg.png" alt="MTA Logo">
-            <h3>What the MTA is doing</h2>
+        <div id="title-container">
+            <div id="title">Subway Stations Accessibility Infrastructure</div>
         </div>
-        <button class="button-3" onclick="toggleDescription()">Hide Description</button>
-        <div id="description-content">
-            <div id="description">
+
+        <div id="description-container">
+            <div id="mta-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/MTA_NYC_logo.svg/698px-MTA_NYC_logo.svg.png" alt="MTA Logo">
+                <h3>What the MTA is doing</h3>
+            </div>
+            <button class="button-3" onclick="toggleDescription()">Hide Description</button>
+            <div id="description-content">
+                <div id="description">
 
                 <p>The project is dedicated to enhancing accessibility across the transit system, with a focus on
                     initiatives outlined in the MTA's 2020-2024 Capital Program. This program allocates a historic $5.2
