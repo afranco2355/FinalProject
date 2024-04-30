@@ -14,10 +14,10 @@ body {
 }
 
 .circle-marker {
-    width: 5px;
-    height: 5px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
-    border: 0.5px solid #878787;
+    border: 1px solid #ffffff;
     /* White border around markers */
     cursor: pointer;
 }

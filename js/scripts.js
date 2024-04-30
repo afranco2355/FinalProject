@@ -16,9 +16,9 @@ subwaystations.forEach(function (subwayRecord) {
 
     // Determine marker color based on accessibility
     if (subwayRecord.Accesibility === 'Y') {
-        color = '#25afef'; // Blue for accessible stations
+        color = '#6391EB'; // Blue for accessible stations
     } else {
-        color = '#d67ea6'; // Red for non-accessible stations
+        color = '#ED7486'; // Red for non-accessible stations
     }
 
     // Create circle marker element
@@ -63,3 +63,26 @@ function prevImage() {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
     showImage(currentIndex);
 }
+
+// Load subway lines GeoJSON file
+map.on('load', function () {
+    map.addSource('subway-lines', {
+        type: 'geojson',
+        data: 'subway_lines.geojson' // Replace 'subway_lines.geojson' with the path to your GeoJSON file
+    });
+
+    // Add layer for subway lines
+    map.addLayer({
+        id: 'subway-lines',
+        type: 'line',
+        source: 'subway-lines',
+        layout: {
+            'line-join': 'round',
+            'line-cap': 'round'
+        },
+        paint: {
+            'line-color': '#BF5700', // Set all lines to green
+            'line-width': 2 // Adjust line width as needed
+        }
+    });
+});
