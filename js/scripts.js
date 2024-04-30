@@ -81,8 +81,18 @@ map.on('load', function () {
             'line-cap': 'round'
         },
         paint: {
-            'line-color': '#BF5700', // Set all lines to green
+            'line-color': '#BF5700', // Set all lines to orange
             'line-width': 2 // Adjust line width as needed
         }
     });
 });
+
+// Group subway stations by borough
+const stationsByBorough = {};
+subwaystations.forEach((station) => {
+    const borough = station.Borough;
+    if (!stationsByBorough[borough]) {
+        stationsByBorough[borough] = [];
+    }
+    stationsByBorough[borough].push(station);
+})

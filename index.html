@@ -7,9 +7,33 @@
     <title>NYC Subway Accessibility</title>
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
     <link href="CSS/styles.css" rel="stylesheet">
+    <style>
+        .borough-button {
+            background-color: #3e4caf;
+            color: #fff;
+            border: 1px solid #2937d4;
+            border-radius: 6px;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 20px;
+            padding: 6px 12px;
+            text-align: center;
+            text-decoration: none;
+            white-space: nowrap;
+            margin-bottom: 10px;
+        }
+
+        .borough-button:hover {
+            background-color: #6883db;
+        }
+    </style>
 </head>
 
 <body>
+
     <div id="map"></div>
     <div id="main-container">
         <div id="title-container">
@@ -18,52 +42,66 @@
 
         <div id="description-container">
             <div id="mta-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/MTA_NYC_logo.svg/698px-MTA_NYC_logo.svg.png" alt="MTA Logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/MTA_NYC_logo.svg/698px-MTA_NYC_logo.svg.png"
+                    alt="MTA Logo">
                 <h3>What the MTA is doing</h3>
             </div>
             <button class="button-3" onclick="toggleDescription()">Hide Description</button>
             <div id="description-content">
                 <div id="description">
 
-                <p>The project is dedicated to enhancing accessibility across the transit system, with a focus on
-                    initiatives outlined in the MTA's 2020-2024 Capital Program. This program allocates a historic $5.2
-                    billion towards making stations newly accessible, alongside an additional nearly $600 million designated
-                    for elevator upgrades to enhance reliability.</p>
-                <p>Utilizing these funds, the project aims to render certain subway stations newly accessible while
-                    implementing elevator replacements and other enhancements to ensure reliability and safety. Upon
-                    completion, subway riders will find accessible stations within a maximum of two stops' distance.</p>
-                <p>Progress has already commenced, with accessibility upgrades underway at 21 stations across the five
-                    boroughs, and elevator replacement projects recently finalized at eight stations, with ongoing efforts
-                    throughout the system. The Rapid Station Accessibility Upgrade program is facilitating some of these
-                    improvements through collaboration with a private partner tasked with expedited and cost-effective
-                    execution, alongside a 15-year maintenance commitment for the elevators.</p>
-                <p>Furthermore, the 57 St F station is slated for accessibility enhancements under the Zoning for
-                    Accessibility program, established through a partnership with New York City and private developers.</p>
-                <p>Moreover, a landmark agreement announced in 2022 between the MTA and accessibility advocates solidifies
-                    the commitment to systemwide accessibility, outlining a clear trajectory towards achieving 95%
-                    accessibility by 2055. Strategic decisions regarding station prioritization for accessibility
-                    improvements are made in accordance with the Americans with Disabilities Act (ADA), and through
-                    consultation with riders and advocates to maximize the project's impact.</p>
+                    <p>The project is dedicated to enhancing accessibility across the transit system, with a focus on
+                        initiatives outlined in the MTA's 2020-2024 Capital Program. This program allocates a historic
+                        $5.2
+                        billion towards making stations newly accessible, alongside an additional nearly $600 million
+                        designated
+                        for elevator upgrades to enhance reliability.</p>
+                    <p>Utilizing these funds, the project aims to render certain subway stations newly accessible while
+                        implementing elevator replacements and other enhancements to ensure reliability and safety. Upon
+                        completion, subway riders will find accessible stations within a maximum of two stops' distance.
+                    </p>
+                    <p>Progress has already commenced, with accessibility upgrades underway at 21 stations across the
+                        five
+                        boroughs, and elevator replacement projects recently finalized at eight stations, with ongoing
+                        efforts
+                        throughout the system. The Rapid Station Accessibility Upgrade program is facilitating some of
+                        these
+                        improvements through collaboration with a private partner tasked with expedited and
+                        cost-effective
+                        execution, alongside a 15-year maintenance commitment for the elevators.</p>
+                    <p>Furthermore, the 57 St F station is slated for accessibility enhancements under the Zoning for
+                        Accessibility program, established through a partnership with New York City and private
+                        developers.</p>
+                    <p>Moreover, a landmark agreement announced in 2022 between the MTA and accessibility advocates
+                        solidifies
+                        the commitment to systemwide accessibility, outlining a clear trajectory towards achieving 95%
+                        accessibility by 2055. Strategic decisions regarding station prioritization for accessibility
+                        improvements are made in accordance with the Americans with Disabilities Act (ADA), and through
+                        consultation with riders and advocates to maximize the project's impact.</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="image-container">
-        <h3>Some Examples</h3>
-        <img class="gallery-image current-image" src="https://cdn.vox-cdn.com/thumbor/8zcIzw5z_ftpWQWJk5BnZwi_USU=/0x0:2000x1333/1375x1375/filters:focal(840x507:1160x827):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/56792293/170920_14_21_07_5DSR8940.0.jpg">
-        <img class="gallery-image" src="https://static01.nyt.com/images/2018/07/27/nyregion/27subwayelevator01/00subwayelevator01-articleLarge-v3.jpg?quality=75&auto=webp&disable=upscale">
-        <img class="gallery-image" src="https://brooklyneagle.com/wp-content/uploads/2022/06/86th-Street-station-Bay-Ridge.png">
-        <img class="gallery-image" src="https://images.wsj.net/im-94628?width=1280&size=1">
-        <img class="gallery-image" src="https://qns.com/wp-content/uploads/2020/07/50159879262_db138a1b33_c.jpg">
-        <!-- Left arrow -->
-        <div class="arrow left-arrow" onclick="prevImage()"></div>
-        <!-- Right arrow -->
-        <div class="arrow right-arrow" onclick="nextImage()"></div>
-    </div>
+        <div id="image-container">
+            <h3>Some Examples</h3>
+            <img class="gallery-image current-image"
+                src="https://cdn.vox-cdn.com/thumbor/8zcIzw5z_ftpWQWJk5BnZwi_USU=/0x0:2000x1333/1375x1375/filters:focal(840x507:1160x827):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/56792293/170920_14_21_07_5DSR8940.0.jpg">
+            <img class="gallery-image"
+                src="https://static01.nyt.com/images/2018/07/27/nyregion/27subwayelevator01/00subwayelevator01-articleLarge-v3.jpg?quality=75&auto=webp&disable=upscale">
+            <img class="gallery-image"
+                src="https://brooklyneagle.com/wp-content/uploads/2022/06/86th-Street-station-Bay-Ridge.png">
+            <img class="gallery-image" src="https://images.wsj.net/im-94628?width=1280&size=1">
+            <img class="gallery-image" src="https://qns.com/wp-content/uploads/2020/07/50159879262_db138a1b33_c.jpg">
+            <!-- Left arrow -->
+            <div class="arrow left-arrow" onclick="prevImage()"></div>
+            <!-- Right arrow -->
+            <div class="arrow right-arrow" onclick="nextImage()"></div>
+        </div>
 
-    <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
-    <script src="js/stations.js" defer></script>
-    <script src="js/scripts.js" defer></script>
+        <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+        <script src="js/stations.js" defer></script>
+        <script src="js/scripts.js" defer></script>
+    </div>
 </body>
 
 </html>
