@@ -85,6 +85,36 @@ function filterByAccessibility(accessibility) {
     });
 }
 
+map.on('load', function() {
+    // Load NTA GeoJSON data
+    map.addSource('nta', {
+        type: 'geojson',
+        data: 'nta.geojson' // Replace with the URL to your NTA GeoJSON data
+    });
+
+    // Add a new fill layer to represent NTA boundaries
+    map.addLayer({
+        id: 'nta-fill',
+        type: 'fill',
+        source: 'nta',
+        paint: {
+            'fill-color': '#E6E6E6', // Fill color for NTAs
+            'fill-opacity': 0.5 // Opacity of the fill color
+        }
+    });
+
+    // Add a new line layer to represent NTA boundaries
+    map.addLayer({
+        id: 'nta-line',
+        type: 'line',
+        source: 'nta',
+        paint: {
+            'line-color': '#fff', // Border color for NTAs
+            'line-width': 0.5 // Width of the border
+        }
+    });
+});
+
 // After the map has been initialized
 map.on('load', function() {
     // Display subway lines
