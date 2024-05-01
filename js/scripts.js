@@ -10,6 +10,24 @@ const map = new mapboxgl.Map({
 // Add navigation control to the map and set position
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
+// Previous image function
+function prevImage() {
+    var images = document.querySelectorAll('.gallery-image');
+    var currentIndex = Array.from(images).findIndex(img => img.classList.contains('current-image'));
+    var newIndex = (currentIndex - 1 + images.length) % images.length;
+    images[currentIndex].classList.remove('current-image');
+    images[newIndex].classList.add('current-image');
+}
+
+// Next image function
+function nextImage() {
+    var images = document.querySelectorAll('.gallery-image');
+    var currentIndex = Array.from(images).findIndex(img => img.classList.contains('current-image'));
+    var newIndex = (currentIndex + 1) % images.length;
+    images[currentIndex].classList.remove('current-image');
+    images[newIndex].classList.add('current-image');
+}
+
 // Load subway station data
 subwaystations.forEach(function (subwayRecord) {
     var color;
@@ -40,11 +58,13 @@ function filterByAccessibility(accessibility) {
     
     // Iterate over each marker
     markers.forEach(function(marker) {
-        // Check the accessibility status of the marker
-        var isAccessible = marker.dataset.accessibility === 'Y'; // 'Y' for accessible, 'N' for non-accessible
+        // Get the marker's color
+        var markerColor = marker.style.backgroundColor;
         
         // Determine if the marker should be visible based on filter criteria
-        var isVisible = (accessibility === 'Accessible' && isAccessible) || (accessibility === 'Not Accessible' && !isAccessible);
+        var isVisible = (accessibility === 'Accessible' && markerColor === 'rgb(99, 145, 235)') || 
+                        (accessibility === 'Not Accessible' && markerColor === 'rgb(237, 116, 134)') || 
+                        (accessibility === 'All');
         
         // Toggle marker visibility
         marker.style.display = isVisible ? 'block' : 'none';
