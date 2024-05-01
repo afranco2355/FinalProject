@@ -10,6 +10,20 @@ const map = new mapboxgl.Map({
 // Add navigation control to the map and set position
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
+function toggleDescription() {
+    var descriptionContent = document.getElementById('description-content');
+    var button = document.querySelector('.button-3');
+
+    // Toggle the visibility of the description content
+    descriptionContent.classList.toggle('hidden');
+
+    // Change the button text based on the current state of the description content
+    if (descriptionContent.classList.contains('hidden')) {
+        button.textContent = 'Take a Look';
+    } else {
+        button.textContent = 'Hide Description';
+    }
+}
 // Previous image function
 function prevImage() {
     var images = document.querySelectorAll('.gallery-image');
@@ -83,7 +97,7 @@ map.on('load', function() {
         },
         paint: {
             'line-color': '#E6922C', // Orange color
-            'line-width': 3
+            'line-width': 2
         }
     });
 });
