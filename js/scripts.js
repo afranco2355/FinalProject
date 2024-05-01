@@ -70,3 +70,20 @@ function filterByAccessibility(accessibility) {
         marker.style.display = isVisible ? 'block' : 'none';
     });
 }
+
+// After the map has been initialized
+map.on('load', function() {
+    // Display subway lines
+    map.addLayer({
+        id: 'subway-lines',
+        type: 'line',
+        source: {
+            type: 'geojson',
+            data: 'subway_lines.geojson' // Replace 'subway_lines.geojson' with the URL of your GeoJSON data
+        },
+        paint: {
+            'line-color': '#E6922C', // Orange color
+            'line-width': 3
+        }
+    });
+});
