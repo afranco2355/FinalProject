@@ -17,7 +17,7 @@ body {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    border: 1px solid #ffffff;
+    border: 0.7px solid #ffffff;
     /* White border around markers */
     cursor: pointer;
 }
@@ -255,4 +255,36 @@ body {
 .mapboxgl-popup .accessibility {
     font-size: 12px; /* Adjust font size for accessibility */
     color: #666; /* Adjust color if needed */
+}
+
+/* Add CSS for the accessibility buttons */
+#accessibility-buttons {
+    position: fixed;
+    top: 15px;
+    left: 550px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.accessibility-button {
+    display: block;
+    width: 200px;
+    margin-bottom: 5px;
+    background-color: #1b3fb6;
+    color: white;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accessibility-button:hover {
+    background-color: #6883db;
+}
+
+.accessibility-button:focus {
+    outline: none;
+}
+
+.accessibility-button:active {
+    background-color: #cecece;
 }

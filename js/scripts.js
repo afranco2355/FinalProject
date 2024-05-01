@@ -33,66 +33,20 @@ subwaystations.forEach(function (subwayRecord) {
         .addTo(map);
 });
 
-function toggleDescription() {
-    var descriptionContent = document.getElementById('description-content');
-    descriptionContent.classList.toggle('hidden');
-    var toggleButton = document.querySelector('.button-3');
-    toggleButton.textContent = descriptionContent.classList.contains('hidden') ? 'Take a Look' : 'Hide Description';
-}
-
-// JavaScript to handle image gallery navigation
-const images = document.querySelectorAll('.gallery-image');
-let currentIndex = 0;
-
-function showImage(index) {
-    images.forEach((image, i) => {
-        if (i === index) {
-            image.classList.add('current-image');
-        } else {
-            image.classList.remove('current-image');
-        }
+// Function to filter stations by accessibility
+function filterByAccessibility(accessibility) {
+    // Select all circle markers
+    var markers = document.querySelectorAll('.circle-marker');
+    
+    // Iterate over each marker
+    markers.forEach(function(marker) {
+        // Check the accessibility status of the marker
+        var isAccessible = marker.dataset.accessibility === 'Y'; // 'Y' for accessible, 'N' for non-accessible
+        
+        // Determine if the marker should be visible based on filter criteria
+        var isVisible = (accessibility === 'Accessible' && isAccessible) || (accessibility === 'Not Accessible' && !isAccessible);
+        
+        // Toggle marker visibility
+        marker.style.display = isVisible ? 'block' : 'none';
     });
 }
-
-function nextImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    showImage(currentIndex);
-}
-
-function prevImage() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    showImage(currentIndex);
-}
-
-// Load subway lines GeoJSON file
-map.on('load', function () {
-    map.addSource('subway-lines', {
-        type: 'geojson',
-        data: 'subway_lines.geojson' // Replace 'subway_lines.geojson' with the path to your GeoJSON file
-    });
-
-    // Add layer for subway lines
-    map.addLayer({
-        id: 'subway-lines',
-        type: 'line',
-        source: 'subway-lines',
-        layout: {
-            'line-join': 'round',
-            'line-cap': 'round'
-        },
-        paint: {
-            'line-color': '#BF5700', // Set all lines to orange
-            'line-width': 2 // Adjust line width as needed
-        }
-    });
-});
-
-// Group subway stations by borough
-const stationsByBorough = {};
-subwaystations.forEach((station) => {
-    const borough = station.Borough;
-    if (!stationsByBorough[borough]) {
-        stationsByBorough[borough] = [];
-    }
-    stationsByBorough[borough].push(station);
-})

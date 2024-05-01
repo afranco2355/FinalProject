@@ -7,33 +7,15 @@
     <title>NYC Subway Accessibility</title>
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
     <link href="CSS/styles.css" rel="stylesheet">
-    <style>
-        .borough-button {
-            background-color: #3e4caf;
-            color: #fff;
-            border: 1px solid #2937d4;
-            border-radius: 6px;
-            cursor: pointer;
-            display: inline-block;
-            font-family: Arial, sans-serif;
-            font-size: 12px;
-            font-weight: bold;
-            line-height: 20px;
-            padding: 6px 12px;
-            text-align: center;
-            text-decoration: none;
-            white-space: nowrap;
-            margin-bottom: 10px;
-        }
 
-        .borough-button:hover {
-            background-color: #6883db;
-        }
-    </style>
 </head>
 
 <body>
-
+    <div id="accessibility-buttons">
+        <button class="accessibility-button" onclick="filterByAccessibility('Accessible')">Accessible Stations</button>
+        <button class="accessibility-button" onclick="filterByAccessibility('Not Accessible')">Not Accessible
+            Stations</button>
+    </div>
     <div id="map"></div>
     <div id="main-container">
         <div id="title-container">
@@ -97,6 +79,9 @@
             <!-- Right arrow -->
             <div class="arrow right-arrow" onclick="nextImage()"></div>
         </div>
+
+        <div class="circle-marker" data-accessibility="Y"></div>
+        <div class="circle-marker" data-accessibility="N"></div>
 
         <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
         <script src="js/stations.js" defer></script>
