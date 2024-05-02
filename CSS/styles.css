@@ -138,8 +138,8 @@ body {
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-color: rgba(68, 112, 165, 0.833);
-    border: 1px solid #9cb7ed;
+    background-color: rgba(36, 108, 197, 0.833);
+    border: 0.5px solid #1500ff;
     cursor: pointer;
     z-index: 2;
 }
