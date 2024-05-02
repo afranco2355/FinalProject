@@ -57,6 +57,7 @@ subwaystations.forEach(function(subwayRecord) {
     var el = document.createElement('div');
     el.className = 'circle-marker';
     el.style.backgroundColor = color;
+    el.setAttribute('data-station', subwayRecord ['Stop Name'])
 
     // Add circle marker to the map
     new mapboxgl.Marker(el)
@@ -160,9 +161,13 @@ function filterByBorough(borough) {
             return station['Stop Name'] === stationName;
         });
 
+        console.log("Station Data:", stationData); // Log the station data
+
         if (borough.toLowerCase() === 'all') {
             marker.style.display = 'block';
         } else {
+            console.log("Borough Filter:", borough.toLowerCase()); // Log the borough filter
+            console.log("Station Borough:", stationData.Borough.toLowerCase()); // Log the station's borough
             if (stationData && stationData.Borough.toLowerCase() === borough.toLowerCase()) {
                 marker.style.display = 'block';
             } else {
@@ -171,7 +176,6 @@ function filterByBorough(borough) {
         }
     });
 }
-
 
 function checkElevatorEscalatorStatus() {
     window.open("https://new.mta.info/elevator-escalator-status", "_blank");
