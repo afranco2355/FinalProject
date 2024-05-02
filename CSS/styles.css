@@ -11,6 +11,7 @@ body {
     width: calc(100% - 540px);
     left: 540px;
     border: 5px solid rgb(0, 0, 0); /* Set border to black */
+    z-index: 1; /* Increase z-index to ensure it's behind other elements */
 }
 
 .circle-marker {
@@ -286,5 +287,36 @@ body {
 }
 
 .accessibility-button:active {
+    background-color: #cecece;
+}
+
+#borough-buttons {
+    position: fixed;
+    top: 530px;
+    left: 1280px; /* Adjust as needed */
+    z-index: 1100; /* Increase the z-index value */
+}
+
+.borough-button {
+    display: block;
+    width: 150px; /* Adjust width as needed */
+    margin-bottom: 5px;
+    background-color: #1b3fb6;
+    color: white;
+    border: 1px solid transparent; /* Ensure consistent button size */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.borough-button:hover {
+    background-color: #6883db;
+}
+
+.borough-button:focus {
+    outline: none;
+}
+
+.borough-button:active {
     background-color: #cecece;
 }

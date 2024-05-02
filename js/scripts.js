@@ -98,8 +98,8 @@ map.on('load', function() {
         type: 'fill',
         source: 'nta',
         paint: {
-            'fill-color': '#E6E6E6', // Fill color for NTAs
-            'fill-opacity': 0.5 // Opacity of the fill color
+            'fill-color': '#F2F0F0', // Fill color for NTAs
+            'fill-opacity': 0.1 // Opacity of the fill color
         }
     });
 
@@ -126,8 +126,24 @@ map.on('load', function() {
             data: 'subway_lines.geojson' // Replace 'subway_lines.geojson' with the URL of your GeoJSON data
         },
         paint: {
-            'line-color': '#E6922C', // Orange color
+            'line-color': '#1500F2', // Orange color
             'line-width': 2
         }
     });
 });
+
+function filterByBorough(borough) {
+    var markers = document.querySelectorAll('.circle-marker');
+    markers.forEach(function(marker) {
+        var stationName = marker.getAttribute('data-station');
+        var stationData = subwaystations.find(function(station) {
+            return station['Stop Name'] === stationName;
+        });
+
+        if (stationData && stationData.Borough.toLowerCase() === borough.toLowerCase() || borough.toLowerCase() === 'all') {
+            marker.style.display = 'block';
+        } else {
+            marker.style.display = 'none';
+        }
+    });
+}
