@@ -161,13 +161,18 @@ function filterByBorough(borough) {
             return station['Stop Name'] === stationName;
         });
 
-        if (stationData && stationData.Borough.toLowerCase() === borough.toLowerCase() || borough.toLowerCase() === 'all') {
+        if (borough.toLowerCase() === 'all') {
             marker.style.display = 'block';
         } else {
-            marker.style.display = 'none';
+            if (stationData && stationData.Borough.toLowerCase() === borough.toLowerCase()) {
+                marker.style.display = 'block';
+            } else {
+                marker.style.display = 'none';
+            }
         }
     });
 }
+
 
 function checkElevatorEscalatorStatus() {
     window.open("https://new.mta.info/elevator-escalator-status", "_blank");
