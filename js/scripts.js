@@ -43,7 +43,7 @@ function nextImage() {
 }
 
 // Load subway station data
-subwaystations.forEach(function (subwayRecord) {
+subwaystations.forEach(function(subwayRecord) {
     var color;
 
     // Determine marker color based on accessibility
@@ -61,7 +61,7 @@ subwaystations.forEach(function (subwayRecord) {
     // Add circle marker to the map
     new mapboxgl.Marker(el)
         .setLngLat([parseFloat(subwayRecord['GTFS Longitude'].replace(',', '.')), parseFloat(subwayRecord['GTFS Latitude'].replace(',', '.'))])
-        .setPopup(new mapboxgl.Popup().setHTML(`<h3>${subwayRecord['Stop Name']}</h3><p>Accessibility: ${subwayRecord.Accesibility === 'Y' ? 'Yes' : 'No'}</p>`))
+        .setPopup(new mapboxgl.Popup().setHTML(`<h3>${subwayRecord['Stop Name']}</h3><p>Lines: ${subwayRecord.Lines}</p><p>Accessibility: ${subwayRecord.Accesibility === 'Y' ? 'Yes' : 'No'}</p>`)) // Include the 'Lines' information in the popup
         .addTo(map);
 });
 
@@ -134,7 +134,6 @@ map.on('load', function() {
 });
 
 */
-
 
 // After the map has been initialized
 map.on('load', function() {
