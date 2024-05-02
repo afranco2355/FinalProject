@@ -320,3 +320,11 @@ body {
 .borough-button:active {
     background-color: #cecece;
 }
+
+.smaller-marker {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+    cursor: pointer;
+}

@@ -65,6 +65,14 @@ subwaystations.forEach(function (subwayRecord) {
         .addTo(map);
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    // Apply smaller marker style to all markers on page load
+    var markers = document.querySelectorAll('.circle-marker');
+    markers.forEach(function(marker) {
+        marker.classList.add('smaller-marker');
+    });
+});
+
 // Function to filter stations by accessibility
 function filterByAccessibility(accessibility) {
     // Select all circle markers
@@ -82,8 +90,18 @@ function filterByAccessibility(accessibility) {
         
         // Toggle marker visibility
         marker.style.display = isVisible ? 'block' : 'none';
+
+                // Toggle class for smaller markers when all stations are displaying
+                if (accessibility === 'All') {
+                    marker.classList.add('smaller-marker');
+                } else {
+                    marker.classList.remove('smaller-marker');
+                }
     });
 }
+
+// Remove or comment out this code block
+/*
 
 map.on('load', function() {
     // Load NTA GeoJSON data
@@ -115,6 +133,9 @@ map.on('load', function() {
     });
 });
 
+*/
+
+
 // After the map has been initialized
 map.on('load', function() {
     // Display subway lines
@@ -126,7 +147,7 @@ map.on('load', function() {
             data: 'subway_lines.geojson' // Replace 'subway_lines.geojson' with the URL of your GeoJSON data
         },
         paint: {
-            'line-color': '#1500F2', // Orange color
+            'line-color': '#FCFC05',
             'line-width': 2
         }
     });
@@ -146,4 +167,8 @@ function filterByBorough(borough) {
             marker.style.display = 'none';
         }
     });
+}
+
+function checkElevatorEscalatorStatus() {
+    window.open("https://new.mta.info/elevator-escalator-status", "_blank");
 }
