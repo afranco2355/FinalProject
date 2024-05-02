@@ -172,3 +172,17 @@ function filterByBorough(borough) {
 function checkElevatorEscalatorStatus() {
     window.open("https://new.mta.info/elevator-escalator-status", "_blank");
 }
+
+map.on('load', function() {
+    // Get the map style object
+    var style = map.getStyle();
+
+    // Loop through all layers
+    style.layers.forEach(function(layer) {
+        // Check if the layer type is 'symbol' and it has a 'text-field' property
+        if (layer.type === 'symbol' && layer.layout['text-field']) {
+            // Set the text-opacity property to 0
+            map.setPaintProperty(layer.id, 'text-opacity', 0);
+        }
+    });
+});
