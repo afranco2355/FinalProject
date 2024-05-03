@@ -1,7 +1,7 @@
 // Initialize Mapbox map
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW1mMTAwOTIiLCJhIjoiY2x1cmRoODA1MDYyYTJ2bjV1djk2c3E4ZiJ9.l38L0twOrC6M5FnzpbZz2A';
 const map = new mapboxgl.Map({
-    style: "mapbox://styles/mapbox/dark-v11",
+    style: "mapbox://styles/mapbox/light-v11",
     container: 'map', // container ID
     center: [-73.95790, 40.71400], // starting position [lng, lat]
     zoom: 9.8,
@@ -71,6 +71,25 @@ document.addEventListener('DOMContentLoaded', function() {
     var markers = document.querySelectorAll('.circle-marker');
     markers.forEach(function(marker) {
         marker.classList.add('smaller-marker');
+    });
+});
+
+map.on('load', function() {
+    // Add the borough boundaries GeoJSON as a source
+    map.addSource('borough-boundaries', {
+        type: 'geojson',
+        data: 'Borough_Boundaries.geojson'
+    });
+
+    // Add a fill layer to represent borough boundaries
+    map.addLayer({
+        id: 'borough-boundaries-fill',
+        type: 'fill',
+        source: 'borough-boundaries',
+        paint: {
+            'fill-color': 'rgba(40, 40, 40, 0.7)',
+            'fill-outline-color': 'rgba(0, 0, 0, 1)'
+        }
     });
 });
 
