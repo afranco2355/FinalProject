@@ -87,7 +87,7 @@ map.on('load', function() {
         type: 'fill',
         source: 'borough-boundaries',
         paint: {
-            'fill-color': 'rgba(40, 40, 40, 0.7)',
+            'fill-color': 'rgba(40, 40, 40, 0.4)',
             'fill-outline-color': 'rgba(0, 0, 0, 1)'
         }
     });
@@ -173,28 +173,32 @@ map.on('load', function() {
 });
 
 function filterByBorough(borough) {
+    console.log('Clicked borough:', borough); // Log the clicked borough
     var markers = document.querySelectorAll('.circle-marker');
     markers.forEach(function(marker) {
+        console.log('Marker:', marker); // Log each marker
         var stationName = marker.getAttribute('data-station');
+        console.log('Station name:', stationName); // Log the station name
         if (borough) {
-        var stationData = subwaystations.find(function(station) {
-            return station['Stop Name'] === stationName;
-        });
+            var stationData = subwaystations.find(function(station) {
+                return station['Stop Name'] === stationName;
+            });
 
-        console.log("Station Data:", stationData); // Log the station data
-
-        if (borough.toLowerCase() === 'all') {
-            marker.style.display = 'block';
-        } else {
-            console.log("Borough Filter:", borough.toLowerCase()); // Log the borough filter
-            console.log("Station Borough:", stationData.Borough.toLowerCase()); // Log the station's borough
-            if (stationData && stationData.Borough === borough) {
+            if (borough.toLowerCase() === 'all') {
                 marker.style.display = 'block';
             } else {
-                marker.style.display = 'none';
+                var stationCoordinates = [parseFloat(stationData['GTFS Longitude'].replace(',', '.')), parseFloat(stationData['GTFS Latitude'].replace(',', '.'))];
+                var boroughBoundary = boroughBoundaries.features.find(function(feature) {
+                    return feature.properties.boro_name.toLowerCase() === borough.toLowerCase() && (turf.booleanPointInPolygon(turf.point(stationCoordinates), feature.geometry) || turf.booleanPointInPolygon(turf.point(stationCoordinates), turf.buffer(feature.geometry, 1, { units: 'miles' })));
+                });
+                console.log('Borough boundary:', boroughBoundary); // Log the borough boundary
+                if (boroughBoundary) {
+                    marker.style.display = 'block';
+                } else {
+                    marker.style.display = 'none';
+                }
             }
         }
-    }
     });
 }
 
