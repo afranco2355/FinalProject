@@ -265,7 +265,7 @@ body {
     font-family: Arial, sans-serif;
     /* Specify font family */
     box-shadow: 0 2px 4px rgba(152, 152, 152, 0.1);
-    padding: 10px;
+    padding: 5px;
     /* Adjust padding */
 }
 
@@ -274,7 +274,7 @@ body {
     /* Add padding */
 }
 
-.mapboxgl-popup h3 {
+.mapboxgl-popup h4 {
     margin: 0;
     /* Remove margin */
     font-size: 16px;
@@ -295,7 +295,7 @@ body {
 }
 
 .mapboxgl-popup .accessibility {
-    font-size: 12px;
+    font-size: 10px;
     /* Adjust font size for accessibility */
     color: #666;
     /* Adjust color if needed */

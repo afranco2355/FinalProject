@@ -157,6 +157,7 @@ function filterByBorough(borough) {
     var markers = document.querySelectorAll('.circle-marker');
     markers.forEach(function(marker) {
         var stationName = marker.getAttribute('data-station');
+        if (borough) {
         var stationData = subwaystations.find(function(station) {
             return station['Stop Name'] === stationName;
         });
@@ -168,12 +169,13 @@ function filterByBorough(borough) {
         } else {
             console.log("Borough Filter:", borough.toLowerCase()); // Log the borough filter
             console.log("Station Borough:", stationData.Borough.toLowerCase()); // Log the station's borough
-            if (stationData && stationData.Borough.toLowerCase() === borough.toLowerCase()) {
+            if (stationData && stationData.Borough === borough) {
                 marker.style.display = 'block';
             } else {
                 marker.style.display = 'none';
             }
         }
+    }
     });
 }
 
