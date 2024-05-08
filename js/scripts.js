@@ -49,6 +49,8 @@ subwaystations.forEach(function(subwayRecord) {
     // Determine marker color based on accessibility
     if (subwayRecord.Accesibility === 'Y') {
         color = '#6391EB'; // Blue for accessible stations
+    } else if (subwayRecord.Accesibility === 'C') {
+        color = '#faee02'; // Custom color for stations with condition 'C'
     } else {
         color = '#ED7486'; // Red for non-accessible stations
     }
@@ -93,7 +95,7 @@ map.on('load', function() {
     });
 });
 
-// Function to filter stations by accessibility
+// Function to filter stations by accessibility or condition
 function filterByAccessibility(accessibility) {
     // Select all circle markers
     var markers = document.querySelectorAll('.circle-marker');
@@ -106,17 +108,18 @@ function filterByAccessibility(accessibility) {
         // Determine if the marker should be visible based on filter criteria
         var isVisible = (accessibility === 'Accessible' && markerColor === 'rgb(99, 145, 235)') || 
                         (accessibility === 'Not Accessible' && markerColor === 'rgb(237, 116, 134)') || 
-                        (accessibility === 'All');
+                        (accessibility === 'All') ||
+                        (accessibility === 'Construction' && markerColor === 'rgb(250, 238, 2)'); // Adjusted color code
         
         // Toggle marker visibility
         marker.style.display = isVisible ? 'block' : 'none';
 
-                // Toggle class for smaller markers when all stations are displaying
-                if (accessibility === 'All') {
-                    marker.classList.add('smaller-marker');
-                } else {
-                    marker.classList.remove('smaller-marker');
-                }
+        // Toggle class for smaller markers when all stations are displaying
+        if (accessibility === 'All') {
+            marker.classList.add('smaller-marker');
+        } else {
+            marker.classList.remove('smaller-marker');
+        }
     });
 }
 
@@ -166,7 +169,7 @@ map.on('load', function() {
             data: 'subway_lines.geojson' // Replace 'subway_lines.geojson' with the URL of your GeoJSON data
         },
         paint: {
-            'line-color': '#FCFC05',
+            'line-color': '#fcfcfc',
             'line-width': 2
         }
     });

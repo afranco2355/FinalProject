@@ -9,10 +9,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,775036",
             "GTFS Longitude": "-73,912034",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Astoria",
@@ -22,10 +19,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,770258",
             "GTFS Longitude": "-73,917843",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Astoria",
@@ -35,10 +29,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,766779",
             "GTFS Longitude": "-73,921479",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Astoria",
@@ -48,10 +39,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,76182",
             "GTFS Longitude": "-73,925508",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Astoria",
@@ -61,10 +49,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,756804",
             "GTFS Longitude": "-73,929575",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Astoria",
@@ -74,10 +59,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,752882",
             "GTFS Longitude": "-73,932755",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Astoria",
@@ -87,10 +69,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,76266",
             "GTFS Longitude": "-73,967258",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Astoria",
@@ -100,10 +79,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,764811",
             "GTFS Longitude": "-73,973347",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -113,10 +89,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,764664",
             "GTFS Longitude": "-73,980658",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -126,10 +99,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,759901",
             "GTFS Longitude": "-73,984139",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -139,10 +109,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,754672",
             "GTFS Longitude": "-73,986754",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -152,10 +119,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,749567",
             "GTFS Longitude": "-73,98795",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -165,10 +129,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,745494",
             "GTFS Longitude": "-73,988691",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -178,10 +139,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,741303",
             "GTFS Longitude": "-73,989344",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -191,10 +149,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,735736",
             "GTFS Longitude": "-73,990568",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -204,10 +159,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,730328",
             "GTFS Longitude": "-73,992629",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -217,10 +169,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,724329",
             "GTFS Longitude": "-73,997702",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway",
@@ -230,10 +179,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,719527",
             "GTFS Longitude": "-74,001775",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Manhattan Bridge",
@@ -243,10 +189,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,718383",
             "GTFS Longitude": "-74,00046",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway",
@@ -256,10 +199,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,713282",
             "GTFS Longitude": "-74,006978",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway",
@@ -269,10 +209,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,710668",
             "GTFS Longitude": "-74,011029",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway",
@@ -282,10 +219,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,70722",
             "GTFS Longitude": "-74,013342",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway",
@@ -295,10 +229,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,703087",
             "GTFS Longitude": "-74,012994",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway",
@@ -308,10 +239,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,6941",
             "GTFS Longitude": "-73,991777",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway",
@@ -321,10 +249,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,69218",
             "GTFS Longitude": "-73,985942",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -334,10 +259,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,690635",
             "GTFS Longitude": "-73,981824",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "4th Av",
@@ -347,10 +269,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,683666",
             "GTFS Longitude": "-73,97881",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "4th Av",
@@ -360,10 +279,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,677316",
             "GTFS Longitude": "-73,98311",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "4th Av",
@@ -373,10 +289,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,670847",
             "GTFS Longitude": "-73,988302",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "4th Av",
@@ -386,10 +299,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,665414",
             "GTFS Longitude": "-73,992872",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "4th Av",
@@ -399,10 +309,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,660397",
             "GTFS Longitude": "-73,998091",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "4th Av",
@@ -412,10 +319,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,655144",
             "GTFS Longitude": "-74,003549",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "4th Av",
@@ -425,10 +329,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,648939",
             "GTFS Longitude": "-74,010006",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "4th Av",
@@ -438,10 +339,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,645069",
             "GTFS Longitude": "-74,014034",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "4th Av",
@@ -451,10 +349,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,641362",
             "GTFS Longitude": "-74,017881",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "4th Av",
@@ -464,10 +359,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,634967",
             "GTFS Longitude": "-74,023377",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "4th Av",
@@ -477,10 +369,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,629742",
             "GTFS Longitude": "-74,02551",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "4th Av",
@@ -490,10 +379,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,622687",
             "GTFS Longitude": "-74,028398",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "4th Av",
@@ -503,10 +389,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,616622",
             "GTFS Longitude": "-74,030876",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Broadway - Brighton",
@@ -516,10 +399,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,68446",
             "GTFS Longitude": "-73,97689",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -529,10 +409,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,67705",
             "GTFS Longitude": "-73,972367",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -542,10 +419,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,661614",
             "GTFS Longitude": "-73,962246",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -555,10 +429,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,655292",
             "GTFS Longitude": "-73,961495",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -568,10 +439,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,650527",
             "GTFS Longitude": "-73,962982",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Broadway - Brighton",
@@ -581,10 +449,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,644031",
             "GTFS Longitude": "-73,964492",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -594,10 +459,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,640927",
             "GTFS Longitude": "-73,963891",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -607,10 +469,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,635082",
             "GTFS Longitude": "-73,962793",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -620,10 +479,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,62927",
             "GTFS Longitude": "-73,961639",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -633,10 +489,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,625039",
             "GTFS Longitude": "-73,960803",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -646,10 +499,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,617618",
             "GTFS Longitude": "-73,959399",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -659,10 +509,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,60867",
             "GTFS Longitude": "-73,957734",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - Brighton",
@@ -672,10 +519,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,5993",
             "GTFS Longitude": "-73,955929",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -685,10 +529,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,595246",
             "GTFS Longitude": "-73,955161",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -698,10 +539,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,586896",
             "GTFS Longitude": "-73,954155",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Broadway - Brighton",
@@ -711,10 +549,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,577621",
             "GTFS Longitude": "-73,961376",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -724,10 +559,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,576312",
             "GTFS Longitude": "-73,968501",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - Brighton",
@@ -737,10 +569,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,576127",
             "GTFS Longitude": "-73,975939",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Sea Beach / West End / Culver / Brighton",
@@ -750,10 +579,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,577422",
             "GTFS Longitude": "-73,981233",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "West End",
@@ -763,10 +589,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,646292",
             "GTFS Longitude": "-73,994324",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "West End",
@@ -776,10 +599,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,640914",
             "GTFS Longitude": "-73,994304",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "West End",
@@ -789,10 +609,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,63626",
             "GTFS Longitude": "-73,994791",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "West End",
@@ -802,10 +619,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,631435",
             "GTFS Longitude": "-73,995476",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "West End",
@@ -815,10 +629,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,626472",
             "GTFS Longitude": "-73,996895",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "West End",
@@ -828,10 +639,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,619589",
             "GTFS Longitude": "-73,998864",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "West End",
@@ -841,10 +649,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,613501",
             "GTFS Longitude": "-74,00061",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "West End",
@@ -854,10 +659,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,607954",
             "GTFS Longitude": "-74,001736",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "West End",
@@ -867,10 +669,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,604556",
             "GTFS Longitude": "-73,998168",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "West End",
@@ -880,10 +679,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,601875",
             "GTFS Longitude": "-73,993728",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "West End",
@@ -893,10 +689,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,597704",
             "GTFS Longitude": "-73,986829",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "West End",
@@ -906,10 +699,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,588841",
             "GTFS Longitude": "-73,983765",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Sea Beach",
@@ -919,10 +709,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,635064",
             "GTFS Longitude": "-74,011719",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Sea Beach",
@@ -932,10 +719,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,631386",
             "GTFS Longitude": "-74,005351",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Sea Beach",
@@ -945,10 +729,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,624842",
             "GTFS Longitude": "-73,996353",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Sea Beach",
@@ -958,10 +739,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,620671",
             "GTFS Longitude": "-73,990414",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Sea Beach",
@@ -971,10 +749,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,61741",
             "GTFS Longitude": "-73,985026",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Sea Beach",
@@ -984,10 +759,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,611815",
             "GTFS Longitude": "-73,981848",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Sea Beach",
@@ -997,10 +769,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,603923",
             "GTFS Longitude": "-73,980353",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Sea Beach",
@@ -1010,10 +779,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,597473",
             "GTFS Longitude": "-73,979137",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Sea Beach",
@@ -1023,10 +789,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,592721",
             "GTFS Longitude": "-73,97823",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1036,10 +799,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,700492",
             "GTFS Longitude": "-73,828294",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1049,10 +809,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,697418",
             "GTFS Longitude": "-73,836345",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1062,10 +819,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,695178",
             "GTFS Longitude": "-73,84433",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1075,10 +829,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,693879",
             "GTFS Longitude": "-73,851576",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Jamaica",
@@ -1088,10 +839,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,692435",
             "GTFS Longitude": "-73,86001",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1101,10 +849,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,691324",
             "GTFS Longitude": "-73,867139",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1114,10 +859,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,689941",
             "GTFS Longitude": "-73,87255",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1127,10 +869,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,683194",
             "GTFS Longitude": "-73,873785",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1140,10 +879,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,68141",
             "GTFS Longitude": "-73,880039",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1153,10 +889,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,679947",
             "GTFS Longitude": "-73,884639",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1166,10 +899,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,678024",
             "GTFS Longitude": "-73,891688",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1179,10 +909,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,676992",
             "GTFS Longitude": "-73,898654",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1192,10 +919,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,679498",
             "GTFS Longitude": "-73,904512",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Jamaica",
@@ -1205,10 +929,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,682893",
             "GTFS Longitude": "-73,910456",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1218,10 +939,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,68637",
             "GTFS Longitude": "-73,916559",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1231,10 +949,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,68963",
             "GTFS Longitude": "-73,92227",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1244,10 +959,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,693342",
             "GTFS Longitude": "-73,928814",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1257,10 +969,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,697207",
             "GTFS Longitude": "-73,935657",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1270,10 +979,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,70026",
             "GTFS Longitude": "-73,941126",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Jamaica",
@@ -1283,10 +989,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,703869",
             "GTFS Longitude": "-73,947408",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1296,10 +999,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,70687",
             "GTFS Longitude": "-73,953431",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1309,10 +1009,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,708359",
             "GTFS Longitude": "-73,957757",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Jamaica",
@@ -1322,10 +1019,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,718315",
             "GTFS Longitude": "-73,987437",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1335,10 +1029,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,72028",
             "GTFS Longitude": "-73,993915",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1348,10 +1039,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,718092",
             "GTFS Longitude": "-73,999892",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jamaica",
@@ -1361,10 +1049,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,713243",
             "GTFS Longitude": "-74,003401",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Jamaica",
@@ -1374,10 +1059,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,710374",
             "GTFS Longitude": "-74,007582",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Jamaica",
@@ -1387,10 +1069,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,706476",
             "GTFS Longitude": "-74,011056",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Myrtle Av",
@@ -1400,10 +1079,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,711396",
             "GTFS Longitude": "-73,889601",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Myrtle Av",
@@ -1413,10 +1089,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,706186",
             "GTFS Longitude": "-73,895877",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Myrtle Av",
@@ -1426,10 +1099,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,704423",
             "GTFS Longitude": "-73,903077",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Myrtle Av",
@@ -1439,10 +1109,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,702762",
             "GTFS Longitude": "-73,90774",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Myrtle Av",
@@ -1452,10 +1119,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,69943",
             "GTFS Longitude": "-73,912385",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Myrtle Av",
@@ -1465,10 +1129,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,698664",
             "GTFS Longitude": "-73,919711",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Myrtle Av",
@@ -1478,10 +1139,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,697857",
             "GTFS Longitude": "-73,927397",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1491,10 +1149,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,739777",
             "GTFS Longitude": "-74,002578",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Canarsie",
@@ -1504,10 +1159,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,737335",
             "GTFS Longitude": "-73,996786",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Canarsie",
@@ -1517,10 +1169,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,734789",
             "GTFS Longitude": "-73,99073",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Canarsie",
@@ -1530,10 +1179,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,732849",
             "GTFS Longitude": "-73,986122",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1543,10 +1189,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,730953",
             "GTFS Longitude": "-73,981628",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Canarsie",
@@ -1556,10 +1199,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,717304",
             "GTFS Longitude": "-73,956872",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Canarsie",
@@ -1569,10 +1209,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,714063",
             "GTFS Longitude": "-73,950275",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Canarsie",
@@ -1582,10 +1219,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,714565",
             "GTFS Longitude": "-73,944053",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1595,10 +1229,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,711926",
             "GTFS Longitude": "-73,94067",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Canarsie",
@@ -1608,10 +1239,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,707739",
             "GTFS Longitude": "-73,93985",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1621,10 +1249,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,706152",
             "GTFS Longitude": "-73,933147",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1634,10 +1259,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,706607",
             "GTFS Longitude": "-73,922913",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1647,10 +1269,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,703811",
             "GTFS Longitude": "-73,918425",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1660,10 +1279,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,699814",
             "GTFS Longitude": "-73,911586",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Canarsie",
@@ -1673,10 +1289,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,695602",
             "GTFS Longitude": "-73,904084",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1686,10 +1299,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,688764",
             "GTFS Longitude": "-73,904046",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Canarsie",
@@ -1699,10 +1309,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,682829",
             "GTFS Longitude": "-73,905249",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1712,10 +1319,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,678856",
             "GTFS Longitude": "-73,90324",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Canarsie",
@@ -1725,10 +1329,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,675345",
             "GTFS Longitude": "-73,903097",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1738,10 +1339,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,669367",
             "GTFS Longitude": "-73,901975",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1751,10 +1349,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,664038",
             "GTFS Longitude": "-73,900571",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Canarsie",
@@ -1764,10 +1359,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,658733",
             "GTFS Longitude": "-73,899232",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1777,10 +1369,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,650573",
             "GTFS Longitude": "-73,899485",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Canarsie",
@@ -1790,10 +1379,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,646654",
             "GTFS Longitude": "-73,90185",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Franklin Shuttle",
@@ -1803,10 +1389,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,680596",
             "GTFS Longitude": "-73,955827",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Franklin Shuttle",
@@ -1816,10 +1399,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,674772",
             "GTFS Longitude": "-73,957624",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Franklin Shuttle",
@@ -1829,10 +1409,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,670343",
             "GTFS Longitude": "-73,959245",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1842,10 +1419,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,868072",
             "GTFS Longitude": "-73,919899",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1855,10 +1429,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,865491",
             "GTFS Longitude": "-73,927271",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1868,10 +1439,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,859022",
             "GTFS Longitude": "-73,93418",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1881,10 +1449,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,851695",
             "GTFS Longitude": "-73,937969",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1894,10 +1459,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,847391",
             "GTFS Longitude": "-73,939704",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1907,10 +1469,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,840719",
             "GTFS Longitude": "-73,939561",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1920,10 +1479,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,836013",
             "GTFS Longitude": "-73,939892",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1933,10 +1489,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,830518",
             "GTFS Longitude": "-73,941514",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1946,10 +1499,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,824783",
             "GTFS Longitude": "-73,944216",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Concourse",
@@ -1959,10 +1509,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,824783",
             "GTFS Longitude": "-73,944216",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1972,10 +1519,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,817894",
             "GTFS Longitude": "-73,947649",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1985,10 +1529,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,811109",
             "GTFS Longitude": "-73,952343",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -1998,10 +1539,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,805085",
             "GTFS Longitude": "-73,954882",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2011,10 +1549,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,800603",
             "GTFS Longitude": "-73,958161",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2024,10 +1559,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,796092",
             "GTFS Longitude": "-73,961454",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2037,10 +1569,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,791642",
             "GTFS Longitude": "-73,964696",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2050,10 +1579,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,785868",
             "GTFS Longitude": "-73,968916",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2063,10 +1589,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,781433",
             "GTFS Longitude": "-73,972143",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2076,10 +1599,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,775594",
             "GTFS Longitude": "-73,97641",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2089,10 +1609,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,768296",
             "GTFS Longitude": "-73,981736",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2102,10 +1619,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,762456",
             "GTFS Longitude": "-73,985984",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2115,10 +1629,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,757308",
             "GTFS Longitude": "-73,989735",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2128,10 +1639,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,752287",
             "GTFS Longitude": "-73,993391",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2141,10 +1649,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,745906",
             "GTFS Longitude": "-73,998041",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2154,10 +1659,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,740893",
             "GTFS Longitude": "-74,00169",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2167,10 +1669,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,732338",
             "GTFS Longitude": "-74,000495",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "6th Av - Culver",
@@ -2180,10 +1679,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,732338",
             "GTFS Longitude": "-74,000495",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2193,10 +1689,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,726227",
             "GTFS Longitude": "-74,003739",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2206,10 +1699,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,720824",
             "GTFS Longitude": "-74,005229",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2219,10 +1709,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,714111",
             "GTFS Longitude": "-74,008585",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2232,10 +1719,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,712582",
             "GTFS Longitude": "-74,009781",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2245,10 +1729,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,710197",
             "GTFS Longitude": "-74,007691",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2258,10 +1739,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,699337",
             "GTFS Longitude": "-73,990531",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2271,10 +1749,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,692338",
             "GTFS Longitude": "-73,987342",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2284,10 +1759,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,688484",
             "GTFS Longitude": "-73,985001",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2297,10 +1769,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,686113",
             "GTFS Longitude": "-73,973946",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2310,10 +1779,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,683263",
             "GTFS Longitude": "-73,965838",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2323,10 +1789,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,68138",
             "GTFS Longitude": "-73,956848",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2336,10 +1799,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,680438",
             "GTFS Longitude": "-73,950426",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2349,10 +1809,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,679921",
             "GTFS Longitude": "-73,940858",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2362,10 +1819,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,679364",
             "GTFS Longitude": "-73,930729",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2375,10 +1829,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,678822",
             "GTFS Longitude": "-73,920786",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2388,10 +1839,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,67834",
             "GTFS Longitude": "-73,911946",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2401,10 +1849,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,678334",
             "GTFS Longitude": "-73,905316",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2414,10 +1859,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,674542",
             "GTFS Longitude": "-73,896548",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2427,10 +1869,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,67271",
             "GTFS Longitude": "-73,890358",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2440,10 +1879,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,67413",
             "GTFS Longitude": "-73,88075",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "8th Av - Fulton St",
@@ -2453,10 +1889,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,675377",
             "GTFS Longitude": "-73,872106",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Liberty Av",
@@ -2466,10 +1899,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,677044",
             "GTFS Longitude": "-73,86505",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Liberty Av",
@@ -2479,10 +1909,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,679371",
             "GTFS Longitude": "-73,858992",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Liberty Av",
@@ -2492,10 +1919,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,679843",
             "GTFS Longitude": "-73,85147",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Liberty Av",
@@ -2505,10 +1929,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,680429",
             "GTFS Longitude": "-73,843853",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Liberty Av",
@@ -2518,10 +1939,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,681711",
             "GTFS Longitude": "-73,837683",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Liberty Av",
@@ -2531,10 +1949,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,684331",
             "GTFS Longitude": "-73,832163",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Liberty Av",
@@ -2544,10 +1959,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,685951",
             "GTFS Longitude": "-73,825798",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Rockaway",
@@ -2557,10 +1969,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,668234",
             "GTFS Longitude": "-73,834058",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Rockaway",
@@ -2570,10 +1979,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,668234",
             "GTFS Longitude": "-73,834058",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Rockaway",
@@ -2583,10 +1989,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,660476",
             "GTFS Longitude": "-73,830301",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Rockaway",
@@ -2596,10 +1999,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,608382",
             "GTFS Longitude": "-73,815925",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Rockaway",
@@ -2609,10 +2009,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,588034",
             "GTFS Longitude": "-73,813641",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Rockaway",
@@ -2622,10 +2019,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,585307",
             "GTFS Longitude": "-73,820558",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Rockaway",
@@ -2635,10 +2029,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,583209",
             "GTFS Longitude": "-73,827559",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Rockaway",
@@ -2648,10 +2039,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,580903",
             "GTFS Longitude": "-73,835592",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Rockaway",
@@ -2661,10 +2049,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,590927",
             "GTFS Longitude": "-73,796924",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Rockaway",
@@ -2674,10 +2059,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,592374",
             "GTFS Longitude": "-73,788522",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Rockaway",
@@ -2687,10 +2069,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,592943",
             "GTFS Longitude": "-73,776013",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Rockaway",
@@ -2700,10 +2079,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,595398",
             "GTFS Longitude": "-73,768175",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Rockaway",
@@ -2713,10 +2089,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,600066",
             "GTFS Longitude": "-73,761353",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Rockaway",
@@ -2726,10 +2099,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,603995",
             "GTFS Longitude": "-73,755405",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Concourse",
@@ -2739,10 +2109,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,874811",
             "GTFS Longitude": "-73,878855",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Concourse",
@@ -2752,10 +2119,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,873244",
             "GTFS Longitude": "-73,887138",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Concourse",
@@ -2765,10 +2129,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,866978",
             "GTFS Longitude": "-73,893509",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Concourse",
@@ -2778,10 +2139,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,861296",
             "GTFS Longitude": "-73,897749",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Concourse",
@@ -2791,10 +2149,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,856093",
             "GTFS Longitude": "-73,900741",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Concourse",
@@ -2804,10 +2159,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,85041",
             "GTFS Longitude": "-73,905227",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Concourse",
@@ -2817,10 +2169,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,8459",
             "GTFS Longitude": "-73,910136",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Concourse",
@@ -2830,10 +2179,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,839306",
             "GTFS Longitude": "-73,9134",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Concourse",
@@ -2843,10 +2189,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,833771",
             "GTFS Longitude": "-73,91844",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Concourse",
@@ -2856,10 +2199,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,827905",
             "GTFS Longitude": "-73,925651",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Concourse",
@@ -2869,10 +2209,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,830135",
             "GTFS Longitude": "-73,938209",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "63rd St",
@@ -2882,10 +2219,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,754203",
             "GTFS Longitude": "-73,942836",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "63rd St",
@@ -2895,10 +2229,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,759145",
             "GTFS Longitude": "-73,95326",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "63rd St",
@@ -2908,10 +2239,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,764629",
             "GTFS Longitude": "-73,966113",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "6th Av - Culver",
@@ -2921,10 +2249,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,763972",
             "GTFS Longitude": "-73,97745",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -2934,10 +2259,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,758663",
             "GTFS Longitude": "-73,981329",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "6th Av - Culver",
@@ -2947,10 +2269,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,754222",
             "GTFS Longitude": "-73,984569",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -2960,10 +2279,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,749719",
             "GTFS Longitude": "-73,987823",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "6th Av - Culver",
@@ -2973,10 +2289,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,742878",
             "GTFS Longitude": "-73,992821",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -2986,10 +2299,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,738228",
             "GTFS Longitude": "-73,996209",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "6th Av - Culver",
@@ -2999,10 +2309,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,725297",
             "GTFS Longitude": "-73,996204",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "6th Av - Culver",
@@ -3012,10 +2319,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,718267",
             "GTFS Longitude": "-73,993753",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3025,10 +2329,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,723402",
             "GTFS Longitude": "-73,989938",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3038,10 +2339,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,718611",
             "GTFS Longitude": "-73,988114",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3051,10 +2349,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,713715",
             "GTFS Longitude": "-73,990173",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3064,10 +2359,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,701397",
             "GTFS Longitude": "-73,986751",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3077,10 +2369,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,686145",
             "GTFS Longitude": "-73,990862",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3090,10 +2379,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,680303",
             "GTFS Longitude": "-73,995048",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3103,10 +2389,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,67358",
             "GTFS Longitude": "-73,995959",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3116,10 +2399,7 @@ var subwaystations =
             "Structure": "Viaduct",
             "GTFS Latitude": "40,670272",
             "GTFS Longitude": "-73,989779",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3129,10 +2409,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,666271",
             "GTFS Longitude": "-73,980305",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "6th Av - Culver",
@@ -3142,10 +2419,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,660365",
             "GTFS Longitude": "-73,979493",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3155,10 +2429,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,650782",
             "GTFS Longitude": "-73,975776",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3168,10 +2439,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,644041",
             "GTFS Longitude": "-73,979678",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "6th Av - Culver",
@@ -3181,10 +2449,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,636119",
             "GTFS Longitude": "-73,978172",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3194,10 +2459,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,629755",
             "GTFS Longitude": "-73,976971",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3207,10 +2469,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,625322",
             "GTFS Longitude": "-73,976127",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3220,10 +2479,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,620769",
             "GTFS Longitude": "-73,975264",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3233,10 +2489,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,61514",
             "GTFS Longitude": "-73,974197",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3246,10 +2499,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,608944",
             "GTFS Longitude": "-73,973022",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3259,10 +2509,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,603217",
             "GTFS Longitude": "-73,972361",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "6th Av - Culver",
@@ -3272,10 +2519,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,596063",
             "GTFS Longitude": "-73,973357",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3285,10 +2529,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,58962",
             "GTFS Longitude": "-73,97425",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "6th Av - Culver",
@@ -3298,10 +2539,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,581011",
             "GTFS Longitude": "-73,974574",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3311,10 +2549,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,712646",
             "GTFS Longitude": "-73,783817",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Queens Blvd",
@@ -3324,10 +2559,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,71047",
             "GTFS Longitude": "-73,793604",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3337,10 +2569,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,707564",
             "GTFS Longitude": "-73,803326",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3350,10 +2579,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,70546",
             "GTFS Longitude": "-73,810708",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3363,10 +2589,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,709179",
             "GTFS Longitude": "-73,820574",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3376,10 +2599,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,714441",
             "GTFS Longitude": "-73,831008",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Queens Blvd",
@@ -3389,10 +2609,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,718331",
             "GTFS Longitude": "-73,837324",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3402,10 +2619,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,721691",
             "GTFS Longitude": "-73,844521",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Queens Blvd",
@@ -3415,10 +2629,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,726523",
             "GTFS Longitude": "-73,852719",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3428,10 +2639,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,729846",
             "GTFS Longitude": "-73,861604",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3441,10 +2649,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,733106",
             "GTFS Longitude": "-73,869229",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Queens Blvd",
@@ -3454,10 +2659,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,737015",
             "GTFS Longitude": "-73,877223",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3467,10 +2669,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,742454",
             "GTFS Longitude": "-73,882017",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3480,10 +2679,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,746644",
             "GTFS Longitude": "-73,891338",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Queens Blvd",
@@ -3493,10 +2689,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,749669",
             "GTFS Longitude": "-73,898453",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3506,10 +2699,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,752885",
             "GTFS Longitude": "-73,906006",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Queens Blvd",
@@ -3519,10 +2709,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,756312",
             "GTFS Longitude": "-73,913333",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3532,10 +2719,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,756879",
             "GTFS Longitude": "-73,92074",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Queens Blvd",
@@ -3545,10 +2729,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,752039",
             "GTFS Longitude": "-73,928781",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3558,10 +2739,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,748973",
             "GTFS Longitude": "-73,937243",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Queens Blvd",
@@ -3571,10 +2749,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,747846",
             "GTFS Longitude": "-73,946",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Queens Blvd",
@@ -3584,10 +2759,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,757552",
             "GTFS Longitude": "-73,969055",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Queens Blvd",
@@ -3597,10 +2769,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,760167",
             "GTFS Longitude": "-73,975224",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens Blvd",
@@ -3610,10 +2779,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,762862",
             "GTFS Longitude": "-73,981637",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Queens - Archer",
@@ -3623,10 +2789,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,702147",
             "GTFS Longitude": "-73,801109",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Queens - Archer",
@@ -3636,10 +2799,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,700486",
             "GTFS Longitude": "-73,807969",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Queens - Archer",
@@ -3649,10 +2809,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,702566",
             "GTFS Longitude": "-73,816859",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Crosstown",
@@ -3662,10 +2819,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,746554",
             "GTFS Longitude": "-73,943832",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Crosstown",
@@ -3675,10 +2829,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,744065",
             "GTFS Longitude": "-73,949724",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Crosstown",
@@ -3688,10 +2839,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,731352",
             "GTFS Longitude": "-73,954449",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Crosstown",
@@ -3701,10 +2849,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,724635",
             "GTFS Longitude": "-73,951277",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Crosstown",
@@ -3714,10 +2859,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,712792",
             "GTFS Longitude": "-73,951418",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Crosstown",
@@ -3727,10 +2869,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,706092",
             "GTFS Longitude": "-73,950308",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Crosstown",
@@ -3740,10 +2879,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,700377",
             "GTFS Longitude": "-73,950234",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Crosstown",
@@ -3753,10 +2889,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,694568",
             "GTFS Longitude": "-73,949046",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Crosstown",
@@ -3766,10 +2899,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,689627",
             "GTFS Longitude": "-73,953522",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Crosstown",
@@ -3779,10 +2909,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,688873",
             "GTFS Longitude": "-73,96007",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Crosstown",
@@ -3792,10 +2919,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,688089",
             "GTFS Longitude": "-73,966839",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Crosstown",
@@ -3805,10 +2929,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,687119",
             "GTFS Longitude": "-73,975375",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3818,10 +2939,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,889248",
             "GTFS Longitude": "-73,898583",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3831,10 +2949,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,884667",
             "GTFS Longitude": "-73,90087",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3844,10 +2959,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,878856",
             "GTFS Longitude": "-73,904834",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3857,10 +2969,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,874561",
             "GTFS Longitude": "-73,909831",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3870,10 +2979,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,869444",
             "GTFS Longitude": "-73,915279",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3883,10 +2989,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,864621",
             "GTFS Longitude": "-73,918822",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3896,10 +2999,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,860531",
             "GTFS Longitude": "-73,925536",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3909,10 +3009,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,855225",
             "GTFS Longitude": "-73,929412",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3922,10 +3019,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,849505",
             "GTFS Longitude": "-73,933596",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3935,10 +3029,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,840556",
             "GTFS Longitude": "-73,940133",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3948,10 +3039,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,834041",
             "GTFS Longitude": "-73,94489",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3961,10 +3049,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,826551",
             "GTFS Longitude": "-73,95036",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3974,10 +3059,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,822008",
             "GTFS Longitude": "-73,953676",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Broadway - 7Av",
@@ -3987,10 +3069,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,815581",
             "GTFS Longitude": "-73,958372",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4000,10 +3079,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,807722",
             "GTFS Longitude": "-73,96411",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4013,10 +3089,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,803967",
             "GTFS Longitude": "-73,966847",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4026,10 +3099,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,799446",
             "GTFS Longitude": "-73,968379",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4039,10 +3109,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,793919",
             "GTFS Longitude": "-73,972323",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4052,10 +3119,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,788644",
             "GTFS Longitude": "-73,976218",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4065,10 +3129,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,783934",
             "GTFS Longitude": "-73,979917",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4078,10 +3139,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,778453",
             "GTFS Longitude": "-73,98197",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4091,10 +3149,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,77344",
             "GTFS Longitude": "-73,982209",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4104,10 +3159,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,768247",
             "GTFS Longitude": "-73,981929",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4117,10 +3169,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,761728",
             "GTFS Longitude": "-73,983849",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4130,10 +3179,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,75529",
             "GTFS Longitude": "-73,987495",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4143,10 +3189,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,750373",
             "GTFS Longitude": "-73,991057",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4156,10 +3199,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,747215",
             "GTFS Longitude": "-73,993365",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4169,10 +3209,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,744081",
             "GTFS Longitude": "-73,995657",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4182,10 +3219,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,74104",
             "GTFS Longitude": "-73,997871",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4195,10 +3229,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,737826",
             "GTFS Longitude": "-74,000201",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4208,10 +3239,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,733422",
             "GTFS Longitude": "-74,002906",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4221,10 +3249,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,728251",
             "GTFS Longitude": "-74,005367",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4234,10 +3259,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,722854",
             "GTFS Longitude": "-74,006277",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4247,10 +3269,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,719318",
             "GTFS Longitude": "-74,006886",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4260,10 +3279,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,715478",
             "GTFS Longitude": "-74,009266",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4273,10 +3289,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,711835",
             "GTFS Longitude": "-74,012188",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4286,10 +3299,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,707513",
             "GTFS Longitude": "-74,013783",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Broadway - 7Av",
@@ -4299,10 +3309,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,702068",
             "GTFS Longitude": "-74,013664",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Clark St",
@@ -4312,10 +3319,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,713051",
             "GTFS Longitude": "-74,008811",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Clark St",
@@ -4325,10 +3329,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,709416",
             "GTFS Longitude": "-74,006571",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Clark St",
@@ -4338,10 +3339,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,706821",
             "GTFS Longitude": "-74,0091",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Clark St",
@@ -4351,10 +3349,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,697466",
             "GTFS Longitude": "-73,993086",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Clark St",
@@ -4364,10 +3359,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,693219",
             "GTFS Longitude": "-73,989998",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Eastern Pky",
@@ -4377,10 +3369,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,690545",
             "GTFS Longitude": "-73,985065",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Eastern Pky",
@@ -4390,10 +3379,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,688246",
             "GTFS Longitude": "-73,980492",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4403,10 +3389,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,684359",
             "GTFS Longitude": "-73,977666",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Eastern Pky",
@@ -4416,10 +3399,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,680829",
             "GTFS Longitude": "-73,975098",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4429,10 +3409,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,675235",
             "GTFS Longitude": "-73,971046",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4442,10 +3419,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,671987",
             "GTFS Longitude": "-73,964375",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Eastern Pky",
@@ -4455,10 +3429,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,670682",
             "GTFS Longitude": "-73,958131",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4468,10 +3439,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,669847",
             "GTFS Longitude": "-73,950466",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4481,10 +3449,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,669399",
             "GTFS Longitude": "-73,942161",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4494,10 +3459,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,668897",
             "GTFS Longitude": "-73,932942",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Eastern Pky",
@@ -4507,10 +3469,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,664717",
             "GTFS Longitude": "-73,92261",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4520,10 +3479,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,661453",
             "GTFS Longitude": "-73,916327",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4533,10 +3489,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,662549",
             "GTFS Longitude": "-73,908946",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4546,10 +3499,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,663515",
             "GTFS Longitude": "-73,902447",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Eastern Pky",
@@ -4559,10 +3509,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,664635",
             "GTFS Longitude": "-73,894895",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4572,10 +3519,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,665449",
             "GTFS Longitude": "-73,889395",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Eastern Pky",
@@ -4585,10 +3529,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,666235",
             "GTFS Longitude": "-73,884079",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Nostrand",
@@ -4598,10 +3539,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,667883",
             "GTFS Longitude": "-73,950683",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Nostrand",
@@ -4611,10 +3549,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,662742",
             "GTFS Longitude": "-73,95085",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Nostrand",
@@ -4624,10 +3559,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,656652",
             "GTFS Longitude": "-73,9502",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Nostrand",
@@ -4637,10 +3569,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,650843",
             "GTFS Longitude": "-73,949575",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Nostrand",
@@ -4650,10 +3579,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,645098",
             "GTFS Longitude": "-73,948959",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Nostrand",
@@ -4663,10 +3589,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,639967",
             "GTFS Longitude": "-73,948411",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Nostrand",
@@ -4676,10 +3599,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,632836",
             "GTFS Longitude": "-73,947642",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Pelham",
@@ -4689,10 +3609,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,852462",
             "GTFS Longitude": "-73,828121",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Pelham",
@@ -4702,10 +3619,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,84681",
             "GTFS Longitude": "-73,832569",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4715,10 +3629,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,843863",
             "GTFS Longitude": "-73,836322",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4728,10 +3639,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,839892",
             "GTFS Longitude": "-73,842952",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Pelham",
@@ -4741,10 +3649,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,836488",
             "GTFS Longitude": "-73,847036",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4754,10 +3659,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,834255",
             "GTFS Longitude": "-73,851222",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4767,10 +3669,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,833226",
             "GTFS Longitude": "-73,860816",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Pelham",
@@ -4780,10 +3679,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,831509",
             "GTFS Longitude": "-73,867618",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4793,10 +3689,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,829521",
             "GTFS Longitude": "-73,874516",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4806,10 +3699,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,828584",
             "GTFS Longitude": "-73,879159",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4819,10 +3709,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,826525",
             "GTFS Longitude": "-73,886283",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4832,10 +3719,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,820948",
             "GTFS Longitude": "-73,890549",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Pelham",
@@ -4845,10 +3729,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,816104",
             "GTFS Longitude": "-73,896435",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4858,10 +3739,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,812118",
             "GTFS Longitude": "-73,904098",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Pelham",
@@ -4871,10 +3749,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,808719",
             "GTFS Longitude": "-73,907657",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4884,10 +3759,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,805368",
             "GTFS Longitude": "-73,914042",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4897,10 +3769,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,807566",
             "GTFS Longitude": "-73,91924",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Pelham",
@@ -4910,10 +3779,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,810476",
             "GTFS Longitude": "-73,926138",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jerome Av",
@@ -4923,10 +3789,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,886037",
             "GTFS Longitude": "-73,878751",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jerome Av",
@@ -4936,10 +3799,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,87975",
             "GTFS Longitude": "-73,884655",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Jerome Av",
@@ -4949,10 +3809,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,873412",
             "GTFS Longitude": "-73,890064",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jerome Av",
@@ -4962,10 +3819,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,86776",
             "GTFS Longitude": "-73,897174",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jerome Av",
@@ -4975,10 +3829,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,862803",
             "GTFS Longitude": "-73,901034",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Jerome Av",
@@ -4988,10 +3839,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,858407",
             "GTFS Longitude": "-73,903879",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jerome Av",
@@ -5001,10 +3849,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,853453",
             "GTFS Longitude": "-73,907684",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jerome Av",
@@ -5014,10 +3859,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,84848",
             "GTFS Longitude": "-73,911794",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jerome Av",
@@ -5027,10 +3869,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,844434",
             "GTFS Longitude": "-73,914685",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jerome Av",
@@ -5040,10 +3879,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,840075",
             "GTFS Longitude": "-73,917791",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Jerome Av",
@@ -5053,10 +3889,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,835537",
             "GTFS Longitude": "-73,9214",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Jerome Av",
@@ -5066,10 +3899,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,827994",
             "GTFS Longitude": "-73,925831",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Jerome Av",
@@ -5079,10 +3909,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,818375",
             "GTFS Longitude": "-73,927351",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Jerome Av",
@@ -5092,10 +3919,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,813224",
             "GTFS Longitude": "-73,929849",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5105,10 +3929,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,804138",
             "GTFS Longitude": "-73,937594",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington Av",
@@ -5118,10 +3939,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,798629",
             "GTFS Longitude": "-73,941617",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5131,10 +3949,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,79502",
             "GTFS Longitude": "-73,94425",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5144,10 +3959,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,7906",
             "GTFS Longitude": "-73,947478",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5157,10 +3969,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,785672",
             "GTFS Longitude": "-73,95107",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5170,10 +3979,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,779492",
             "GTFS Longitude": "-73,955589",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Lexington Av",
@@ -5183,10 +3989,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,77362",
             "GTFS Longitude": "-73,959874",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5196,10 +3999,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,768141",
             "GTFS Longitude": "-73,96387",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Lexington Av",
@@ -5209,10 +4009,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,762526",
             "GTFS Longitude": "-73,967967",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5222,10 +4019,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,757107",
             "GTFS Longitude": "-73,97192",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington Av",
@@ -5235,10 +4029,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,751776",
             "GTFS Longitude": "-73,976848",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington Av",
@@ -5248,10 +4039,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,746081",
             "GTFS Longitude": "-73,982076",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5261,10 +4049,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,74307",
             "GTFS Longitude": "-73,984264",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington Av",
@@ -5274,10 +4059,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,739864",
             "GTFS Longitude": "-73,986599",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington Av",
@@ -5287,10 +4069,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,734673",
             "GTFS Longitude": "-73,989951",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5300,10 +4079,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,730054",
             "GTFS Longitude": "-73,99107",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5313,10 +4089,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,725915",
             "GTFS Longitude": "-73,994659",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington Av",
@@ -5326,10 +4099,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,722301",
             "GTFS Longitude": "-73,997141",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5339,10 +4109,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,718803",
             "GTFS Longitude": "-74,000193",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington Av",
@@ -5352,10 +4119,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,713065",
             "GTFS Longitude": "-74,004131",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington Av",
@@ -5365,10 +4129,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,710368",
             "GTFS Longitude": "-74,009509",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington Av",
@@ -5378,10 +4139,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,707557",
             "GTFS Longitude": "-74,011862",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lexington Av",
@@ -5391,10 +4149,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,704817",
             "GTFS Longitude": "-74,014065",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Eastern Pky",
@@ -5404,10 +4159,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,692404",
             "GTFS Longitude": "-73,990151",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5417,10 +4169,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,903125",
             "GTFS Longitude": "-73,85062",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5430,10 +4179,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,898379",
             "GTFS Longitude": "-73,854376",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5443,10 +4189,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,893193",
             "GTFS Longitude": "-73,857473",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5456,10 +4199,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,888022",
             "GTFS Longitude": "-73,860341",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5469,10 +4209,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,883895",
             "GTFS Longitude": "-73,862633",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5482,10 +4219,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,87785",
             "GTFS Longitude": "-73,866256",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5495,10 +4229,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,871356",
             "GTFS Longitude": "-73,867164",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5508,10 +4239,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,865462",
             "GTFS Longitude": "-73,867352",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5521,10 +4249,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,857192",
             "GTFS Longitude": "-73,867615",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5534,10 +4259,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,848828",
             "GTFS Longitude": "-73,868457",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5547,10 +4269,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,841894",
             "GTFS Longitude": "-73,873488",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5560,10 +4279,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,840295",
             "GTFS Longitude": "-73,880049",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5573,10 +4289,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,837288",
             "GTFS Longitude": "-73,887734",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5586,10 +4299,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,829993",
             "GTFS Longitude": "-73,891865",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5599,10 +4309,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,824073",
             "GTFS Longitude": "-73,893064",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5612,10 +4319,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,822181",
             "GTFS Longitude": "-73,896736",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5625,10 +4329,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,819585",
             "GTFS Longitude": "-73,90177",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5638,10 +4339,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,81649",
             "GTFS Longitude": "-73,907807",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5651,10 +4349,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,816109",
             "GTFS Longitude": "-73,917757",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5664,10 +4359,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,81841",
             "GTFS Longitude": "-73,926718",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5677,10 +4369,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,82388",
             "GTFS Longitude": "-73,93647",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5690,10 +4379,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,820421",
             "GTFS Longitude": "-73,936245",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5703,10 +4389,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,814229",
             "GTFS Longitude": "-73,94077",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5716,10 +4399,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,807754",
             "GTFS Longitude": "-73,945495",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5729,10 +4409,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,802098",
             "GTFS Longitude": "-73,949625",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Lenox - White Plains Rd",
@@ -5742,10 +4419,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,799075",
             "GTFS Longitude": "-73,951822",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Dyre Av",
@@ -5755,10 +4429,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,8883",
             "GTFS Longitude": "-73,830834",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Dyre Av",
@@ -5768,10 +4439,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,878663",
             "GTFS Longitude": "-73,838591",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Dyre Av",
@@ -5781,10 +4449,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,869526",
             "GTFS Longitude": "-73,846384",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Dyre Av",
@@ -5794,10 +4459,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,858985",
             "GTFS Longitude": "-73,855359",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Dyre Av",
@@ -5807,10 +4469,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,854364",
             "GTFS Longitude": "-73,860495",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -5820,10 +4479,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,7596",
             "GTFS Longitude": "-73,83003",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Flushing",
@@ -5833,10 +4489,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,754622",
             "GTFS Longitude": "-73,845625",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -5846,10 +4499,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,75173",
             "GTFS Longitude": "-73,855334",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -5859,10 +4509,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,749865",
             "GTFS Longitude": "-73,8627",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -5872,10 +4519,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,749145",
             "GTFS Longitude": "-73,869527",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Flushing",
@@ -5885,10 +4529,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,748408",
             "GTFS Longitude": "-73,876613",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -5898,10 +4539,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,747659",
             "GTFS Longitude": "-73,883697",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -5911,10 +4549,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,746848",
             "GTFS Longitude": "-73,891394",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Flushing",
@@ -5924,10 +4559,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,746325",
             "GTFS Longitude": "-73,896403",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -5937,10 +4569,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,74563",
             "GTFS Longitude": "-73,902984",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Flushing",
@@ -5950,10 +4579,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,744149",
             "GTFS Longitude": "-73,912549",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -5963,10 +4589,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,743132",
             "GTFS Longitude": "-73,918435",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Flushing",
@@ -5976,10 +4599,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,743781",
             "GTFS Longitude": "-73,924016",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -5989,10 +4609,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,744587",
             "GTFS Longitude": "-73,930997",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Flushing",
@@ -6002,10 +4619,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,750582",
             "GTFS Longitude": "-73,940202",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Astoria",
@@ -6015,10 +4629,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,750582",
             "GTFS Longitude": "-73,940202",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Flushing",
@@ -6028,10 +4639,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,747023",
             "GTFS Longitude": "-73,945264",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Flushing",
@@ -6041,10 +4649,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,742216",
             "GTFS Longitude": "-73,948916",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -6054,10 +4659,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,742626",
             "GTFS Longitude": "-73,953581",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -6067,10 +4669,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,751431",
             "GTFS Longitude": "-73,976041",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Flushing",
@@ -6080,10 +4679,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,753821",
             "GTFS Longitude": "-73,981963",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Flushing",
@@ -6093,10 +4689,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,755477",
             "GTFS Longitude": "-73,987691",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington - Shuttle",
@@ -6106,10 +4699,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,755983",
             "GTFS Longitude": "-73,986229",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Lexington - Shuttle",
@@ -6119,10 +4709,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,752769",
             "GTFS Longitude": "-73,979189",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Flushing",
@@ -6132,10 +4719,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,755882",
             "GTFS Longitude": "-74,00191",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Second Av",
@@ -6145,10 +4729,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,784318",
             "GTFS Longitude": "-73,947152",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Second Av",
@@ -6158,10 +4739,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,777891",
             "GTFS Longitude": "-73,951787",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Second Av",
@@ -6171,10 +4749,7 @@ var subwaystations =
             "Structure": "Subway",
             "GTFS Latitude": "40,768799",
             "GTFS Longitude": "-73,958424",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Staten Island",
@@ -6184,10 +4759,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,643748",
             "GTFS Longitude": "-74,073643",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Staten Island",
@@ -6197,10 +4769,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,636949",
             "GTFS Longitude": "-74,074835",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6210,10 +4779,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,627915",
             "GTFS Longitude": "-74,075162",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6223,10 +4789,7 @@ var subwaystations =
             "Structure": "Elevated",
             "GTFS Latitude": "40,621319",
             "GTFS Longitude": "-74,071402",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6236,10 +4799,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,603117",
             "GTFS Longitude": "-74,084087",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6249,10 +4809,7 @@ var subwaystations =
             "Structure": "Embankment",
             "GTFS Latitude": "40,596612",
             "GTFS Longitude": "-74,087368",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6262,10 +4819,7 @@ var subwaystations =
             "Structure": "Embankment",
             "GTFS Latitude": "40,588849",
             "GTFS Longitude": "-74,09609",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Staten Island",
@@ -6275,10 +4829,7 @@ var subwaystations =
             "Structure": "Embankment",
             "GTFS Latitude": "40,583591",
             "GTFS Longitude": "-74,103338",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6288,10 +4839,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,578965",
             "GTFS Longitude": "-74,109704",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6301,10 +4849,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,57348",
             "GTFS Longitude": "-74,11721",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Staten Island",
@@ -6314,10 +4859,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,56511",
             "GTFS Longitude": "-74,12632",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6327,10 +4869,7 @@ var subwaystations =
             "Structure": "Embankment",
             "GTFS Latitude": "40,5564",
             "GTFS Longitude": "-74,136907",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6340,10 +4879,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,551231",
             "GTFS Longitude": "-74,151399",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Staten Island",
@@ -6353,10 +4889,7 @@ var subwaystations =
             "Structure": "Embankment",
             "GTFS Latitude": "40,544601",
             "GTFS Longitude": "-74,16457",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6366,10 +4899,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,54046",
             "GTFS Longitude": "-74,178217",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6379,10 +4909,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,533674",
             "GTFS Longitude": "-74,191794",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "C"
         },
         {
             "Line": "Staten Island",
@@ -6392,10 +4919,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,525507",
             "GTFS Longitude": "-74,200064",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6405,10 +4929,7 @@ var subwaystations =
             "Structure": "Embankment",
             "GTFS Latitude": "40,52241",
             "GTFS Longitude": "-74,217847",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6418,10 +4939,7 @@ var subwaystations =
             "Structure": "Open Cut",
             "GTFS Latitude": "40,519631",
             "GTFS Longitude": "-74,229141",
-            "Accesibility": "N",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "N"
         },
         {
             "Line": "Staten Island",
@@ -6431,10 +4949,7 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,512764",
             "GTFS Longitude": "-74,251961",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         },
         {
             "Line": "Staten Island",
@@ -6444,9 +4959,6 @@ var subwaystations =
             "Structure": "At Grade",
             "GTFS Latitude": "40,516578",
             "GTFS Longitude": "-74,242096",
-            "Accesibility": "Y",
-            "": "",
-            "__1": "",
-            "__2": ""
+            "Accesibility": "Y"
         }
     ]
