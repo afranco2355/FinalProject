@@ -39,13 +39,12 @@ body {
 #title-container {
     top: 20px;
     left: 20px;
-    background-color: #252fa1;
     padding: 10px;
     text-align: center;
 }
 
 #title {
-    font-size: 20px;
+    font-size: 25px;
     /* Adjust font size as needed */
     font-weight: bold;
     color: #ffffff;

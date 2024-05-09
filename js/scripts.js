@@ -50,7 +50,7 @@ subwaystations.forEach(function(subwayRecord) {
     if (subwayRecord.Accesibility === 'Y') {
         color = '#6391EB'; // Blue for accessible stations
     } else if (subwayRecord.Accesibility === 'C') {
-        color = '#faee02'; // Custom color for stations with condition 'C'
+        color = '#f5aa14'; // Custom color for stations with condition 'C'
     } else {
         color = '#ED7486'; // Red for non-accessible stations
     }
@@ -59,7 +59,7 @@ subwaystations.forEach(function(subwayRecord) {
     var el = document.createElement('div');
     el.className = 'circle-marker';
     el.style.backgroundColor = color;
-    el.setAttribute('data-station', subwayRecord ['Stop Name'])
+    el.setAttribute('borough-station', subwayRecord ['data-borough'])
 
     // Add circle marker to the map
     new mapboxgl.Marker(el)
@@ -109,7 +109,7 @@ function filterByAccessibility(accessibility) {
         var isVisible = (accessibility === 'Accessible' && markerColor === 'rgb(99, 145, 235)') || 
                         (accessibility === 'Not Accessible' && markerColor === 'rgb(237, 116, 134)') || 
                         (accessibility === 'All') ||
-                        (accessibility === 'Under Construction' && markerColor === 'rgb(250, 238, 2)'); // Yellow color for stations under construction
+                        (accessibility === 'Under Construction' && markerColor === 'rgb(250, 198, 2)'); // Yellow color for stations under construction
 
         // Toggle marker visibility
         marker.style.display = isVisible ? 'block' : 'none';
@@ -181,30 +181,25 @@ function filterByBorough(borough) {
     var markers = document.querySelectorAll('.circle-marker');
     markers.forEach(function(marker) {
         console.log('Marker:', marker); // Log each marker
-        var stationName = marker.getAttribute('data-station');
-        console.log('Station name:', stationName); // Log the station name
-        if (borough) {
-            var stationData = subwaystations.find(function(station) {
-                return station['Stop Name'] === stationName;
-            });
-
+        var stationBorough = marker.getAttribute('data-borough');
+        console.log('Borough:', stationBorough); // Log the station's borough
+        if (borough !== null && typeof borough !== 'undefined') {
             if (borough.toLowerCase() === 'all') {
-                marker.style.display = 'block';
+                marker.style.display = 'block'; // Show all markers if "All" is selected
             } else {
-                var stationCoordinates = [parseFloat(stationData['GTFS Longitude'].replace(',', '.')), parseFloat(stationData['GTFS Latitude'].replace(',', '.'))];
-                var boroughBoundary = boroughBoundaries.features.find(function(feature) {
-                    return feature.properties.boro_name.toLowerCase() === borough.toLowerCase() && (turf.booleanPointInPolygon(turf.point(stationCoordinates), feature.geometry) || turf.booleanPointInPolygon(turf.point(stationCoordinates), turf.buffer(feature.geometry, 1, { units: 'miles' })));
-                });
-                console.log('Borough boundary:', boroughBoundary); // Log the borough boundary
-                if (boroughBoundary) {
-                    marker.style.display = 'block';
-                } else {
-                    marker.style.display = 'none';
+                // Check if the station's borough matches the selected borough
+                if (stationBorough !== null && typeof stationBorough !== 'undefined') {
+                    if (stationBorough.toLowerCase() === borough.toLowerCase()) {
+                        marker.style.display = 'block'; // Show the marker if it belongs to the selected borough
+                    } else {
+                        marker.style.display = 'none'; // Hide the marker if it does not belong to the selected borough
+                    }
                 }
             }
         }
     });
 }
+
 
 function checkElevatorEscalatorStatus() {
     window.open("https://new.mta.info/elevator-escalator-status", "_blank");
