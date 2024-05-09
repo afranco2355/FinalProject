@@ -95,22 +95,22 @@ map.on('load', function() {
     });
 });
 
-// Function to filter stations by accessibility or condition
+
 function filterByAccessibility(accessibility) {
     // Select all circle markers
     var markers = document.querySelectorAll('.circle-marker');
-    
+
     // Iterate over each marker
     markers.forEach(function(marker) {
         // Get the marker's color
         var markerColor = marker.style.backgroundColor;
-        
+
         // Determine if the marker should be visible based on filter criteria
         var isVisible = (accessibility === 'Accessible' && markerColor === 'rgb(99, 145, 235)') || 
                         (accessibility === 'Not Accessible' && markerColor === 'rgb(237, 116, 134)') || 
                         (accessibility === 'All') ||
-                        (accessibility === 'Construction' && markerColor === 'rgb(250, 238, 2)'); // Adjusted color code
-        
+                        (accessibility === 'Under Construction' && markerColor === 'rgb(250, 238, 2)'); // Yellow color for stations under construction
+
         // Toggle marker visibility
         marker.style.display = isVisible ? 'block' : 'none';
 
@@ -122,6 +122,7 @@ function filterByAccessibility(accessibility) {
         }
     });
 }
+
 
 // Remove or comment out this code block
 /*
