@@ -259,7 +259,7 @@ const subwayLayerStyles = [
     {
        "id":"subway_stations",
        "minzoom":11,
-       "source":"nyc-subway-stops",
+       "source":"stations",
        "type":"circle",
        "paint":{
           "circle-color":"rgba(255, 255, 255, 1)",
@@ -306,7 +306,7 @@ const subwayLayerStyles = [
     {
        "id":"subway_stations_labels",
        "minzoom":13,
-       "source":"nyc-subway-stops",
+       "source":"stations",
        "type":"symbol",
        "layout":{
           "text-field":"{name}",

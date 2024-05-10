@@ -43,14 +43,14 @@ function nextImage() {
 }
 
 // Load subway station data
-subwaystations.forEach(function(subwayRecord) {
+subwaystations.forEach(function (subwayRecord) {
     var color;
 
     // Determine marker color based on accessibility
     if (subwayRecord.Accesibility === 'Y') {
         color = '#6391EB'; // Blue for accessible stations
     } else if (subwayRecord.Accesibility === 'C') {
-        color = '#f5aa14'; // Custom color for stations with condition 'C'
+        color = 'green'; // Custom color for stations with condition 'C'
     } else {
         color = '#ED7486'; // Red for non-accessible stations
     }
@@ -59,7 +59,7 @@ subwaystations.forEach(function(subwayRecord) {
     var el = document.createElement('div');
     el.className = 'circle-marker';
     el.style.backgroundColor = color;
-    el.setAttribute('borough-station', subwayRecord ['data-borough'])
+    el.setAttribute('borough-station', subwayRecord['data-borough'])
 
     // Add circle marker to the map
     new mapboxgl.Marker(el)
@@ -68,15 +68,15 @@ subwaystations.forEach(function(subwayRecord) {
         .addTo(map);
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Apply smaller marker style to all markers on page load
     var markers = document.querySelectorAll('.circle-marker');
-    markers.forEach(function(marker) {
+    markers.forEach(function (marker) {
         marker.classList.add('smaller-marker');
     });
 });
 
-map.on('load', function() {
+map.on('load', function () {
     // Add the borough boundaries GeoJSON as a source
     map.addSource('borough-boundaries', {
         type: 'geojson',
@@ -101,15 +101,15 @@ function filterByAccessibility(accessibility) {
     var markers = document.querySelectorAll('.circle-marker');
 
     // Iterate over each marker
-    markers.forEach(function(marker) {
+    markers.forEach(function (marker) {
         // Get the marker's color
         var markerColor = marker.style.backgroundColor;
 
         // Determine if the marker should be visible based on filter criteria
-        var isVisible = (accessibility === 'Accessible' && markerColor === 'rgb(99, 145, 235)') || 
-                        (accessibility === 'Not Accessible' && markerColor === 'rgb(237, 116, 134)') || 
-                        (accessibility === 'All') ||
-                        (accessibility === 'Under Construction' && markerColor === 'rgb(250, 198, 2)'); // Yellow color for stations under construction
+        var isVisible = (accessibility === 'Accessible' && markerColor === 'rgb(99, 145, 235)') ||
+            (accessibility === 'Not Accessible' && markerColor === 'rgb(237, 116, 134)') ||
+            (accessibility === 'All') ||
+            (accessibility === 'Under Construction' && markerColor === 'green'); // Green color for stations under construction
 
         // Toggle marker visibility
         marker.style.display = isVisible ? 'block' : 'none';
@@ -122,6 +122,7 @@ function filterByAccessibility(accessibility) {
         }
     });
 }
+
 
 
 // Remove or comment out this code block
@@ -162,7 +163,7 @@ map.on('load', function() {
 function filterByBorough(borough) {
     console.log('Clicked borough:', borough); // Log the clicked borough
     var markers = document.querySelectorAll('.circle-marker');
-    markers.forEach(function(marker) {
+    markers.forEach(function (marker) {
         console.log('Marker:', marker); // Log each marker
         var stationBorough = marker.getAttribute('data-borough');
         console.log('Borough:', stationBorough); // Log the station's borough
@@ -183,17 +184,16 @@ function filterByBorough(borough) {
     });
 }
 
-
 function checkElevatorEscalatorStatus() {
     window.open("https://new.mta.info/elevator-escalator-status", "_blank");
 }
 
-map.on('load', function() {
+map.on('load', function () {
     // Get the map style object
     var style = map.getStyle();
 
     // Loop through all layers
-    style.layers.forEach(function(layer) {
+    style.layers.forEach(function (layer) {
         // Check if the layer type is 'symbol' and it has a 'text-field' property
         if (layer.type === 'symbol' && layer.layout['text-field']) {
             // Set the text-opacity property to 0
@@ -206,23 +206,18 @@ map.on('load', function() {
 map.on('style.load', () => {
     // fitbounds to NYC
     map.fitBounds([
-      [-74.270056,40.494061],
-      [-73.663062,40.957187]
+        [-74.270056, 40.494061],
+        [-73.663062, 40.957187]
     ])
-  
+
     // add geojson sources for subway routes and stops
     map.addSource('nyc-subway-routes', {
-      type: 'geojson',
-      data: 'data/nyc-subway-routes.geojson'
+        type: 'geojson',
+        data: 'data/nyc-subway-routes.geojson'
     });
-  
-    map.addSource('nyc-subway-stops', {
-      type: 'geojson',
-      data: 'data/nyc-subway-stops.geojson'
-    });
-  
+
     // add layers by iterating over the styles in the array defined in subway-layer-styles.js
     subwayLayerStyles.forEach((style) => {
-      map.addLayer(style)
+        map.addLayer(style)
     })
-  })
+})
