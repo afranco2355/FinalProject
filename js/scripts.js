@@ -159,23 +159,6 @@ map.on('load', function() {
 
 */
 
-// After the map has been initialized
-map.on('load', function() {
-    // Display subway lines
-    map.addLayer({
-        id: 'subway-lines',
-        type: 'line',
-        source: {
-            type: 'geojson',
-            data: 'subway_lines.geojson' // Replace 'subway_lines.geojson' with the URL of your GeoJSON data
-        },
-        paint: {
-            'line-color': '#fcfcfc',
-            'line-width': 2
-        }
-    });
-});
-
 function filterByBorough(borough) {
     console.log('Clicked borough:', borough); // Log the clicked borough
     var markers = document.querySelectorAll('.circle-marker');
@@ -218,3 +201,28 @@ map.on('load', function() {
         }
     });
 });
+
+// wait for the initial mapbox style to load before loading our own data
+map.on('style.load', () => {
+    // fitbounds to NYC
+    map.fitBounds([
+      [-74.270056,40.494061],
+      [-73.663062,40.957187]
+    ])
+  
+    // add geojson sources for subway routes and stops
+    map.addSource('nyc-subway-routes', {
+      type: 'geojson',
+      data: 'data/nyc-subway-routes.geojson'
+    });
+  
+    map.addSource('nyc-subway-stops', {
+      type: 'geojson',
+      data: 'data/nyc-subway-stops.geojson'
+    });
+  
+    // add layers by iterating over the styles in the array defined in subway-layer-styles.js
+    subwayLayerStyles.forEach((style) => {
+      map.addLayer(style)
+    })
+  })
