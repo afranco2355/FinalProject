@@ -192,6 +192,42 @@ function filterByBorough(borough) {
             }
         }
     });
+
+    // Define the bounding boxes for each borough
+    var bboxManhattan = [[-74.02524, 40.69997], [-73.90990, 40.88001]];
+    var bboxBronx = [[-73.93480, 40.78851], [-73.79405, 40.91919]];
+    var bboxQueens = [[-73.962582, 40.541722], [-73.700272, 40.800548]];
+    var bboxBrooklyn = [[-74.041878, 40.548224], [-73.833365, 40.739606]];
+    var bboxStatenIsland = [[-74.26717, 40.49575], [-74.03944, 40.66776]];
+    var bboxCityWide = [[-74.3, 40.45], [-73.6, 40.95]]; // City-wide bounding box
+
+    // Check if the selected borough is Staten Island
+    if (borough.toLowerCase() === 'si') {
+        // Move the map to the bounding box for Staten Island
+        map.fitBounds(bboxStatenIsland, { padding: 50 });
+    } else {
+        // Move the map to the bounding box based on the selected borough
+        switch (borough.toLowerCase()) {
+            case 'all':
+                // Move the map to the city-wide bounding box
+                map.fitBounds(bboxCityWide, { padding: 50 });
+                break;
+            case 'manhattan':
+                map.fitBounds(bboxManhattan, { padding: 50 });
+                break;
+            case 'bx':
+                map.fitBounds(bboxBronx, { padding: 50 });
+                break;
+            case 'q':
+                map.fitBounds(bboxQueens, { padding: 50 });
+                break;
+            case 'bk':
+                map.fitBounds(bboxBrooklyn, { padding: 50 });
+                break;
+            default:
+                break;
+        }
+    }
 }
 
 function checkElevatorEscalatorStatus() {

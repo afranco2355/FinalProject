@@ -9,7 +9,7 @@ body {
     top: 0;
     bottom: 0;
     width: calc(100% - 540px);
-    left: 540px;
+    left: 525px;
     border: 5px solid rgb(0, 0, 0);
     /* Set border to black */
     z-index: 1;
@@ -19,13 +19,10 @@ body {
 .circle-marker {
     width: 10px;
     height: 10px;
-    background-color: rgba(255, 255, 255, 1); /* White background */
-    border: 1px solid rgba(0, 0, 0, 1); /* Black border */
     border-radius: 50%;
     cursor: pointer;
 }
 
-#title-container,
 #description-container {
     position: absolute;
     border-radius: 5px;
@@ -34,13 +31,6 @@ body {
     width: 500px;
     box-sizing: border-box;
     /* Ensure padding and border are included in the width */
-}
-
-#title-container {
-    top: 20px;
-    left: 20px;
-    padding: 10px;
-    text-align: center;
 }
 
 #title {
@@ -336,7 +326,7 @@ body {
 #borough-buttons {
     position: fixed;
     top: 530px;
-    left: 1280px;
+    left: 1275px;
     /* Adjust as needed */
     z-index: 1100;
     /* Increase the z-index value */
