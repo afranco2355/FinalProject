@@ -1,7 +1,7 @@
 // Initialize Mapbox map
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW1mMTAwOTIiLCJhIjoiY2x1cmRoODA1MDYyYTJ2bjV1djk2c3E4ZiJ9.l38L0twOrC6M5FnzpbZz2A';
 const map = new mapboxgl.Map({
-    style: "mapbox://styles/mapbox/light-v11",
+    style: "mapbox://styles/amf10092/clw2adz260b2f01nued06aqol",
     container: 'map', // container ID
     center: [-73.95790, 40.71400], // starting position [lng, lat]
     zoom: 9.8,
@@ -95,35 +95,45 @@ map.on('load', function () {
     });
 });
 
+// Load subway station data
+subwaystations.forEach(function (subwayRecord) {
+    // Create circle marker element
+    var el = document.createElement('div');
+    el.className = 'circle-marker';
+    el.style.backgroundColor = 'white'; // Set initial color to white
+    el.setAttribute('data-accessibility', subwayRecord.Accesibility); // Add accessibility data attribute
 
+    // Add circle marker to the map
+    new mapboxgl.Marker(el)
+        .setLngLat([parseFloat(subwayRecord['GTFS Longitude'].replace(',', '.')), parseFloat(subwayRecord['GTFS Latitude'].replace(',', '.'))])
+        .setPopup(new mapboxgl.Popup().setHTML(`<h3>${subwayRecord['Stop Name']}</h3><p>Lines: ${subwayRecord.Lines}</p><p>Accessibility: ${subwayRecord.Accesibility === 'Y' ? 'Yes' : 'No'}</p>`)) // Include the 'Lines' information in the popup
+        .addTo(map);
+});
+
+// Function to filter stations by accessibility
 function filterByAccessibility(accessibility) {
     // Select all circle markers
     var markers = document.querySelectorAll('.circle-marker');
 
     // Iterate over each marker
     markers.forEach(function (marker) {
-        // Get the marker's color
-        var markerColor = marker.style.backgroundColor;
+        // Get the marker's accessibility status
+        var markerAccessibility = marker.getAttribute('data-accessibility');
 
-        // Determine if the marker should be visible based on filter criteria
-        var isVisible = (accessibility === 'Accessible' && markerColor === 'rgb(99, 145, 235)') ||
-            (accessibility === 'Not Accessible' && markerColor === 'rgb(237, 116, 134)') ||
-            (accessibility === 'All') ||
-            (accessibility === 'Under Construction' && markerColor === 'green'); // Green color for stations under construction
-
-        // Toggle marker visibility
-        marker.style.display = isVisible ? 'block' : 'none';
-
-        // Toggle class for smaller markers when all stations are displaying
-        if (accessibility === 'All') {
-            marker.classList.add('smaller-marker');
-        } else {
-            marker.classList.remove('smaller-marker');
+        // Determine the color based on accessibility status
+        var backgroundColor = 'rgba(255, 255, 255, 1)'; // Default background color is white
+        if (accessibility === 'Accessible' && markerAccessibility === 'Y') {
+            backgroundColor = '#6391EB'; // Blue for accessible stations
+        } else if (accessibility === 'Not Accessible' && markerAccessibility === 'N') {
+            backgroundColor = '#ED7486'; // Red for non-accessible stations
+        } else if (accessibility === 'Under Construction' && markerAccessibility === 'C') {
+            backgroundColor = 'green'; // Green for stations under construction
         }
+
+        // Set the marker's background color
+        marker.style.backgroundColor = backgroundColor;
     });
 }
-
-
 
 // Remove or comment out this code block
 /*
