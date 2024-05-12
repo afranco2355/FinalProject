@@ -29,8 +29,13 @@ function prevImage() {
     var images = document.querySelectorAll('.gallery-image');
     var currentIndex = Array.from(images).findIndex(img => img.classList.contains('current-image'));
     var newIndex = (currentIndex - 1 + images.length) % images.length;
-    images[currentIndex].classList.remove('current-image');
-    images[newIndex].classList.add('current-image');
+    images.forEach(img => img.classList.remove('current-image')); // Remove current-image class from all images
+    images[newIndex].classList.add('current-image'); // Add current-image class to the new image
+
+    // Show only the caption related to the current image
+    var captions = document.querySelectorAll('.image-caption');
+    captions.forEach(caption => caption.style.display = 'none'); // Hide all captions
+    captions[newIndex].style.display = 'block'; // Show the caption related to the current image
 }
 
 // Next image function
@@ -38,9 +43,15 @@ function nextImage() {
     var images = document.querySelectorAll('.gallery-image');
     var currentIndex = Array.from(images).findIndex(img => img.classList.contains('current-image'));
     var newIndex = (currentIndex + 1) % images.length;
-    images[currentIndex].classList.remove('current-image');
-    images[newIndex].classList.add('current-image');
+    images.forEach(img => img.classList.remove('current-image')); // Remove current-image class from all images
+    images[newIndex].classList.add('current-image'); // Add current-image class to the new image
+
+    // Show only the caption related to the current image
+    var captions = document.querySelectorAll('.image-caption');
+    captions.forEach(caption => caption.style.display = 'none'); // Hide all captions
+    captions[newIndex].style.display = 'block'; // Show the caption related to the current image
 }
+
 
 // Load subway station data
 subwaystations.forEach(function (subwayRecord) {

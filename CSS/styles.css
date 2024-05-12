@@ -34,11 +34,15 @@ body {
 }
 
 #title {
-    font-size: 25px;
+    font-size: 23px;
     /* Adjust font size as needed */
     font-weight: bold;
     color: #ffffff;
     /* Title text color */
+}
+
+body {
+    font-family: sans-serif; /* Change the font family as desired */
 }
 
 #description-container {
@@ -109,11 +113,11 @@ body {
     /* Center the images horizontally */
     display: none;
     /* Hide all images initially */
-    width: 300px;
+    width: 280px;
     /* Set the desired width */
-    height: 280px;
+    height: 250px;
     /* Set the desired height */
-    border: 1px solid rgb(57, 57, 57);
+    border: 2px solid rgb(57, 57, 57);
 }
 
 .current-image {
@@ -191,7 +195,7 @@ body {
     font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-size: 14px;
     font-weight: 600;
-    line-height: 20px;
+    line-height: 10px;
     padding: 6px 16px;
     position: relative;
     text-align: center;
@@ -201,7 +205,7 @@ body {
     touch-action: manipulation;
     vertical-align: middle;
     white-space: nowrap;
-    width: 478px;
+    width: 468px;
 }
 
 .button-3:focus:not(:focus-visible):not(.focus-visible) {
@@ -364,4 +368,4 @@ body {
     border-radius: 50%;
     border: 0.2px solid #000000;
     cursor: pointer;
-} 
+}
