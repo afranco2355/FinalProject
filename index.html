@@ -12,10 +12,22 @@
 
 <body>
     <div id="accessibility-buttons">
-        <button class="accessibility-button" onclick="filterByAccessibility('Accessible')">Accessible</button>
-        <button class="accessibility-button" onclick="filterByAccessibility('Under Construction')">Under Construction</button>
-        <button class="accessibility-button" onclick="filterByAccessibility('Not Accessible')">Not Accessible</button>
-        <button class="accessibility-button" onclick="filterByAccessibility('All')">All Stations</button>
+        <button class="accessibility-button" onclick="filterByAccessibility('Accessible')">
+            <div class="circle" style="background-color: #6391EB;"></div>
+            Accessible
+        </button>
+        <button class="accessibility-button" onclick="filterByAccessibility('Under Construction')">
+            <div class="circle" style="background-color: green;"></div>
+            Under Construction
+        </button>
+        <button class="accessibility-button" onclick="filterByAccessibility('Not Accessible')">
+            <div class="circle" style="background-color: #ED7486;"></div>
+            Not Accessible
+        </button>
+        <button class="accessibility-button" onclick="filterByAccessibility('All')">
+            <div class="circle" style="background-color: white; border: 1px solid #ccc;"></div>
+            All Stations
+        </button>
     </div>    
     
     <div id="borough-buttons">
@@ -107,7 +119,7 @@
             <div class="arrow left-arrow" onclick="prevImage()"></div>
             <!-- Right arrow -->
             <div class="arrow right-arrow" onclick="nextImage()"></div>
-        </div>
+        </div>  
         
         <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
         <script src="js/stations.js" defer></script>
