@@ -379,3 +379,22 @@ body {
     margin-right: 5px;
     margin-bottom: -2px;
 }
+
+.accessibility-button {
+    background-color: #1b3fb6;
+    /* Default background color */
+    color: white;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accessibility-button.active {
+    background-color: #add8e6;
+    /* Light blue color */
+}
+
+.caption {
+    color: white; /* Set the caption text color to white */
+}

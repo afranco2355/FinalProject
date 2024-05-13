@@ -10,26 +10,26 @@
 
 </head>
 
-<body>
-    <div id="accessibility-buttons">
-        <button class="accessibility-button" onclick="filterByAccessibility('Accessible')">
-            <div class="circle" style="background-color: #6391EB;"></div>
-            Accessible
-        </button>
-        <button class="accessibility-button" onclick="filterByAccessibility('Under Construction')">
-            <div class="circle" style="background-color: green;"></div>
-            Under Construction
-        </button>
-        <button class="accessibility-button" onclick="filterByAccessibility('Not Accessible')">
-            <div class="circle" style="background-color: #ED7486;"></div>
-            Not Accessible
-        </button>
-        <button class="accessibility-button" onclick="filterByAccessibility('All')">
-            <div class="circle" style="background-color: white; border: 1px solid #ccc;"></div>
-            All Stations
-        </button>
-    </div>    
-    
+    <body>
+        <div id="accessibility-buttons">
+            <button class="accessibility-button" onclick="filterByAccessibility('Accessible', this)">
+                <div class="circle" style="background-color: #6391EB;"></div>
+                Accessible
+            </button>
+            <button class="accessibility-button" onclick="filterByAccessibility('Under Construction', this)">
+                <div class="circle" style="background-color: green;"></div>
+                Under Construction
+            </button>
+            <button class="accessibility-button" onclick="filterByAccessibility('Not Accessible', this)">
+                <div class="circle" style="background-color: #ED7486;"></div>
+                Not Accessible
+            </button>
+            <button class="accessibility-button" onclick="filterByAccessibility('All', this)">
+                <div class="circle" style="background-color: white; border: 1px solid #ccc;"></div>
+                All Stations
+            </button>
+        </div>
+
     <div id="borough-buttons">
         <button class="borough-button" onclick="filterByBorough('Manhattan')">Manhattan</button>
         <button class="borough-button" onclick="filterByBorough('Bk')">Brooklyn</button>

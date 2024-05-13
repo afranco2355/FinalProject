@@ -121,8 +121,14 @@ subwaystations.forEach(function (subwayRecord) {
         .addTo(map);
 });
 
-// Function to filter stations by accessibility
-function filterByAccessibility(accessibility) {
+function filterByAccessibility(accessibility, button) {
+    // Remove 'active' class from all buttons
+    var buttons = document.querySelectorAll('.accessibility-button');
+    buttons.forEach(btn => btn.classList.remove('active'));
+    
+    // Add 'active' class to the clicked button
+    button.classList.add('active');
+
     // Select all circle markers
     var markers = document.querySelectorAll('.circle-marker');
 
@@ -134,7 +140,8 @@ function filterByAccessibility(accessibility) {
         // Determine the color based on accessibility status
         var backgroundColor = 'rgba(255, 255, 255, 1)'; // Default background color is white
         if (accessibility === 'Accessible' && markerAccessibility === 'Y') {
-            backgroundColor = '#6391EB'; // Blue for accessible stations
+            // Keep the color blue for accessible stations
+            backgroundColor = '#6391EB'; 
         } else if (accessibility === 'Not Accessible' && markerAccessibility === 'N') {
             backgroundColor = '#ED7486'; // Red for non-accessible stations
         } else if (accessibility === 'Under Construction' && markerAccessibility === 'C') {
@@ -203,6 +210,18 @@ function filterByBorough(borough) {
             }
         }
     });
+
+    // Remove active class from all borough buttons
+    var boroughButtons = document.querySelectorAll('.borough-button');
+    boroughButtons.forEach(function(button) {
+        button.classList.remove('active');
+    });
+
+    // Add active class to the clicked borough button
+    var clickedButton = document.querySelector(`[data-borough="${borough.toLowerCase()}"]`);
+    if (clickedButton) {
+        clickedButton.classList.add('active');
+    }
 
     // Define the bounding boxes for each borough
     var bboxManhattan = [[-74.02524, 40.69997], [-73.90990, 40.88001]];
