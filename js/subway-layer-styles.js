@@ -338,3 +338,5 @@ const subwayLayerStyles = [
        }
     }
  ]
+
+ nano .gitignore
