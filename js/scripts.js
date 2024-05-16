@@ -24,6 +24,7 @@ function toggleDescription() {
         button.textContent = 'Hide Description';
     }
 }
+
 // Previous image function
 function prevImage() {
     var images = document.querySelectorAll('.gallery-image');
@@ -51,7 +52,6 @@ function nextImage() {
     captions.forEach(caption => caption.style.display = 'none'); // Hide all captions
     captions[newIndex].style.display = 'block'; // Show the caption related to the current image
 }
-
 
 // Load subway station data
 subwaystations.forEach(function (subwayRecord) {
@@ -87,25 +87,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-map.on('load', function () {
-    // Add the borough boundaries GeoJSON as a source
-    map.addSource('borough-boundaries', {
-        type: 'geojson',
-        data: 'Borough_Boundaries.geojson'
-    });
-
-    // Add a fill layer to represent borough boundaries
-    map.addLayer({
-        id: 'borough-boundaries-fill',
-        type: 'fill',
-        source: 'borough-boundaries',
-        paint: {
-            'fill-color': 'rgba(40, 40, 40, 0.4)',
-            'fill-outline-color': 'rgba(0, 0, 0, 1)'
-        }
-    });
-});
-
 // Load subway station data
 subwaystations.forEach(function (subwayRecord) {
     // Create circle marker element
@@ -125,7 +106,7 @@ function filterByAccessibility(accessibility, button) {
     // Remove 'active' class from all buttons
     var buttons = document.querySelectorAll('.accessibility-button');
     buttons.forEach(btn => btn.classList.remove('active'));
-    
+
     // Add 'active' class to the clicked button
     button.classList.add('active');
 
@@ -141,7 +122,7 @@ function filterByAccessibility(accessibility, button) {
         var backgroundColor = 'rgba(255, 255, 255, 1)'; // Default background color is white
         if (accessibility === 'Accessible' && markerAccessibility === 'Y') {
             // Keep the color blue for accessible stations
-            backgroundColor = '#6391EB'; 
+            backgroundColor = '#6391EB';
         } else if (accessibility === 'Not Accessible' && markerAccessibility === 'N') {
             backgroundColor = '#ED7486'; // Red for non-accessible stations
         } else if (accessibility === 'Under Construction' && markerAccessibility === 'C') {
@@ -153,40 +134,6 @@ function filterByAccessibility(accessibility, button) {
     });
 }
 
-// Remove or comment out this code block
-/*
-
-map.on('load', function() {
-    // Load NTA GeoJSON data
-    map.addSource('nta', {
-        type: 'geojson',
-        data: 'nta.geojson' // Replace with the URL to your NTA GeoJSON data
-    });
-
-    // Add a new fill layer to represent NTA boundaries
-    map.addLayer({
-        id: 'nta-fill',
-        type: 'fill',
-        source: 'nta',
-        paint: {
-            'fill-color': '#F2F0F0', // Fill color for NTAs
-            'fill-opacity': 0.1 // Opacity of the fill color
-        }
-    });
-
-    // Add a new line layer to represent NTA boundaries
-    map.addLayer({
-        id: 'nta-line',
-        type: 'line',
-        source: 'nta',
-        paint: {
-            'line-color': '#fff', // Border color for NTAs
-            'line-width': 0.5 // Width of the border
-        }
-    });
-});
-
-*/
 
 function filterByBorough(borough) {
     console.log('Clicked borough:', borough); // Log the clicked borough
@@ -213,7 +160,7 @@ function filterByBorough(borough) {
 
     // Remove active class from all borough buttons
     var boroughButtons = document.querySelectorAll('.borough-button');
-    boroughButtons.forEach(function(button) {
+    boroughButtons.forEach(function (button) {
         button.classList.remove('active');
     });
 
@@ -258,6 +205,13 @@ function filterByBorough(borough) {
                 break;
         }
     }
+
+    // Toggle the visibility of the borough boundaries layer
+    if (borough.toLowerCase() === 'all') {
+        map.setLayoutProperty('borough-boundaries-fill', 'visibility', 'none');
+    } else {
+        map.setLayoutProperty('borough-boundaries-fill', 'visibility', 'visible');
+    }
 }
 
 function checkElevatorEscalatorStatus() {
@@ -297,3 +251,50 @@ map.on('style.load', () => {
         map.addLayer(style)
     })
 })
+
+// Load GeoJSON data
+map.on('load', function () {
+    map.addSource('boroughs', {
+        type: 'geojson',
+        data: 'data/borough_boundaries.geojson'
+    });
+
+    // Add borough layer
+    map.addLayer({
+        id: 'boroughs-layer',
+        type: 'fill',
+        source: 'boroughs',
+        paint: {
+            'fill-opacity': 0.1,
+            'fill-color': 'blue'
+        }
+    });
+
+    // Add borough border line layer
+map.addLayer({
+    id: 'boroughs-border-layer',
+    type: 'line',
+    source: 'boroughs',
+    paint: {
+        'line-opacity': 0.7,
+        'line-color': 'black', // Color of the border lines
+        'line-width': 1 // Width of the border lines
+    }
+});
+
+    // Assuming markers is an array of marker objects with latlng properties
+    markers.forEach(function (marker) {
+        // Check if marker is within any borough boundary
+        var borough = null;
+        map.queryRenderedFeatures([marker.latlng], { layers: ['boroughs-layer'] })
+            .forEach(function (feature) {
+                // Assuming each feature has a property 'borough' representing its name or ID
+                borough = feature.properties.borough;
+            });
+
+        // Assign borough data to marker
+        marker.borough = borough;
+    });
+});
+
+// End of code

@@ -303,19 +303,6 @@ body {
     /* Ensure it appears above other content */
 }
 
-.accessibility-button {
-    display: block;
-    width: 200px;
-    margin-bottom: 5px;
-    text-align: left;
-    background-color: #1b3fb6;
-    color: white;
-    border: 1px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .accessibility-button:hover {
     background-color: #6883db;
 }
